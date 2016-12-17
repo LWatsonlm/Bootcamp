@@ -15,7 +15,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: LW
+      title: Tech Eats
 
 description: "Tech Eats: Tech and Food Stuff"
 author:
