@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: dbyll
-google_analytics: ""
+google_analytics: "dbyll"
 title: Tech Eats
 baseurl: /Bootcamp
 
@@ -17,7 +17,7 @@ defaults:
     values:
       title: LW
 
-description: Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C.
+description: Tech Eats: Tech and Food Stuff
 author:
   name: Latoya M. Watson
   email: latoyamwatson@gmail.com
