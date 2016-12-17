@@ -6,8 +6,8 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+google_analytics: ""
+title: Tech Eats
 baseurl: /Bootcamp
 
 defaults:
@@ -15,17 +15,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: LW
 
-description: Stylish Jekyll Theme
+description: Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C.
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
+  name: Latoya M. Watson
+  email: latoyamwatson@gmail.com
+  github: LWatsonlm
+  twitter: lmwatsonn
   pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  linkedin: watsonlm
+  bio: Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C.
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
