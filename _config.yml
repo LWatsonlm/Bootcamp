@@ -8,7 +8,6 @@ markdown: kramdown
 disqus: dbyll
 google_analytics: "dbyll"
 title: Tech Eats
-baseurl: /Bootcamp
 
 defaults:
   -
