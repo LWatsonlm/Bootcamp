@@ -3,12 +3,27 @@
 	<channel>
 		<title>Tech Eats</title>
 		<description>Tech Eats: Tech and Food Stuff</description>
-		<link>/Bootcamp/</link>
-		<atom:link href="/Bootcamp/feed.xml" rel="self" type="application/rss+xml" />
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Test-Is Coding Bootcamp Right For You? Life During Coding Bootcamp</title>
+				<description>&lt;p&gt;pic 3:
+ &lt;img src=&quot;/img/latoyawatson.jpg&quot; alt=&quot;3&quot; /&gt;
+testtesteasteasetaesteteat&lt;/p&gt;
+&lt;h1 id=&quot;will-this-work&quot;&gt;will this work??&lt;/h1&gt;
+</description>
+				<pubDate>Sun, 11 Dec 2016 00:00:00 -0500</pubDate>
+				<link>/bootcamp/2016/12/11/oh-hey-dont-mine-me.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/12/11/oh-hey-dont-mine-me.html</guid>
+			</item>
 		
 			<item>
 				<title>Is Coding Bootcamp Right For You? Life During Coding Bootcamp</title>
-				<description>&lt;p&gt;&lt;img src=&quot;/img/latoyawatson.jpg&quot; alt=&quot;me&quot; /&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;img src=&quot;~/img/latoyawatson.jpg&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;~/media/test.png&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;~/Users/latoyawatson/wdi/Portfolio/bootcamp/img/atm.png&quot; alt=&quot;3&quot; /&gt;
+&lt;img scr=&quot;~/img/latoyawatson.jpg&quot; alt=&quot;hi&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Last week I embarked on a new journey to become a web developer through a full-time coding bootcamp. It took me a long time to decide (like a year!) if a coding bootcamp was right for me. I had a hard time finding resources from first-hand experiences from students, and there’s definitely not a lot of week-to-week recaps of what exactly goes on at these camps.&lt;/p&gt;
 
@@ -54,8 +69,8 @@ First day of class, we sat alphabetical  order, so I had a last row seat.&lt;/p&
 &lt;p&gt;Again, this first post is an introductory post. Please check back next week for my post of my first week at General Assembly. Chat soon!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 11 Sep 2016 00:00:00 -0400</pubDate>
-				<link>/Bootcamp/bootcamp/2016/09/11/week0.html</link>
-				<guid isPermaLink="true">/Bootcamp/bootcamp/2016/09/11/week0.html</guid>
+				<link>/bootcamp/2016/09/11/week0.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/09/11/week0.html</guid>
 			</item>
 		
 			<item>
@@ -69,8 +84,8 @@ First day of class, we sat alphabetical  order, so I had a last row seat.&lt;/p&
 &lt;p&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 15 Nov 2013 00:00:00 -0500</pubDate>
-				<link>/Bootcamp/general/setup/demo/2013/11/15/hello-world.html</link>
-				<guid isPermaLink="true">/Bootcamp/general/setup/demo/2013/11/15/hello-world.html</guid>
+				<link>/general/setup/demo/2013/11/15/hello-world.html</link>
+				<guid isPermaLink="true">/general/setup/demo/2013/11/15/hello-world.html</guid>
 			</item>
 		
 			<item>
@@ -90,8 +105,8 @@ First day of class, we sat alphabetical  order, so I had a last row seat.&lt;/p&
   &lt;span class=&quot;s&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;md5ofemail&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
 				<pubDate>Fri, 15 Nov 2013 00:00:00 -0500</pubDate>
-				<link>/Bootcamp/general/setup/demo/2013/11/15/configuration.html</link>
-				<guid isPermaLink="true">/Bootcamp/general/setup/demo/2013/11/15/configuration.html</guid>
+				<link>/general/setup/demo/2013/11/15/configuration.html</link>
+				<guid isPermaLink="true">/general/setup/demo/2013/11/15/configuration.html</guid>
 			</item>
 		
 			<item>
@@ -106,8 +121,8 @@ First day of class, we sat alphabetical  order, so I had a last row seat.&lt;/p&
 
 </description>
 				<pubDate>Thu, 14 Nov 2013 00:00:00 -0500</pubDate>
-				<link>/Bootcamp/general/demo/2013/11/14/sample.html</link>
-				<guid isPermaLink="true">/Bootcamp/general/demo/2013/11/14/sample.html</guid>
+				<link>/general/demo/2013/11/14/sample.html</link>
+				<guid isPermaLink="true">/general/demo/2013/11/14/sample.html</guid>
 			</item>
 		
 			<item>
@@ -117,8 +132,8 @@ First day of class, we sat alphabetical  order, so I had a last row seat.&lt;/p&
 &lt;p&gt;Lorem ipsum dolor sit amet,  consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 14 Nov 2013 00:00:00 -0500</pubDate>
-				<link>/Bootcamp/general/demo/sample/2013/11/14/sample-2.html</link>
-				<guid isPermaLink="true">/Bootcamp/general/demo/sample/2013/11/14/sample-2.html</guid>
+				<link>/general/demo/sample/2013/11/14/sample-2.html</link>
+				<guid isPermaLink="true">/general/demo/sample/2013/11/14/sample-2.html</guid>
 			</item>
 		
 	</channel>
