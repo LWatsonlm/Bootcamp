@@ -1,6 +1,5 @@
 # Tech Eats: Stories of Tech and Food
 ## Built with Jekyll and hosted on Github Pages
-<hr>
 
 # About Tech Eats:
 
@@ -58,7 +57,13 @@ The solution is well documented by [Matt Swensen](https://github.com/jekyll/jeky
   ```{{ site.baseurl }}{{ post.url }}```
   -- note that there is no slash between the two variables.
 
-  Finally, if you'd like to preview your site before committing/deploying using ```jekyll serve```, be sure to pass an empty string to the ```--baseurl``` option, so that you can view everything at ```localhost:4000``` normally (without /project-name getting in there to muck everything up):
+  Finally, if you'd like to preview your site before committing/deploying using
+   ```jekyll serve```
+   be sure to pass an empty string to the
+   ```--baseurl```
+   option, so that you can view everything at
+   ```localhost:4000```
+   normally, Like this:
   ```jekyll serve --baseurl ''```
 
   This way you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with /project-name and resolve properly.
@@ -71,6 +76,7 @@ I'd like to note that I found my pictures inside my posts were coming back with 
 ```
 
  ## Contact Information
+
  You can always find me on [Twitter](https://twitter.com/lmwatsonn), [LinkedIn](https://www.linkedin.com/in/watsonlm) or shoot me an email at latoyamwatson@gmail.com
 
  Enjoy reading!
