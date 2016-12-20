@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: "disqus_HGoavvjOQN"
+disqus: "lwatsonlm-github-io-tech-eats"
 google_analytics: "UA-76296508-1"
 title: "Tech Eats: Stories of Tech and Food"
 

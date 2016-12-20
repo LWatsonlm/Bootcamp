@@ -15,6 +15,7 @@
 	     {% else %}{{ d }}th,
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
+     - {% include time-to-read.html %} Read.
 	 </span>
 	  <div class="article_body">
 	  {{ content }}
