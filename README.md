@@ -38,51 +38,43 @@ Do NOT modify or add anything to the ```_site``` folder! This is the rendering f
 
 This has been my biggest lesson for sure. GitHub Pages is deeply integrated with Jekyll, but for some reason, Jekyll's relative paths don’t work on GitHub Pages.
 
- Meaning, once you deploy, **all** the image links and styling will not work. You need to update all the relative paths and images paths for everything to render properly on GH-Pages.
+Meaning, once you deploy, **all** the image links and styling will not work. You need to update all the relative paths and images paths for everything to render properly on GH-Pages.
 
 The problem is that Jekyll assumes that your site lives at the root URL ```(i.e. username.github.io)```, when it is in fact in ```username.github.io/project-name```.
 
 The solution is well documented by [Matt Swensen](https://github.com/jekyll/jekyll/issues/332#issuecomment-18952908):
 
-```md
-  In ```_config.yml```, set the baseurl option to ```/project-name``` -- note the leading slash and the absence of a trailing slash.
+In ```_config.yml```, set the baseurl option to ```/project-name``` -- note the leading slash and the absence of a trailing slash.
 
-  Now you'll need to change the way you do links in your templates and posts, in the following two ways:
+Now you'll need to change the way you do links in your templates and posts, in the following two ways:
 
-  When referencing JS or CSS files, do it like this:
-  ```html
-  {{ site.baseurl }}/path/to/css.css
-  ```
-  **note** the slash immediately following the variable (just before "path").
+When referencing JS or CSS files, do it like this:
 
-  When doing permalinks or internal links, do it like this:
-  ```html
-  {{ site.baseurl }}{{ post.url }}
-  ```
-
-  **note** that there is no slash between the two variables.
-
-  Finally, if you'd like to preview your site before committing/deploying using
-
-   ```cmd
-   $ jekyll serve
-   ```
-
-   be sure to pass an empty string to the
-
-   ```cmd
-   --baseurl
-   ```
-
-   option, so that you can view everything at localhost:4000
-   normally, Like this:
-
-  ```cmd
-  $ jekyll serve --baseurl ''
-  ```
-
-  This way you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with /project-name and resolve properly.
+```html
+{{ site.baseurl }}/path/to/css.css
 ```
+**note** the slash immediately following the variable (just before "path").
+
+When doing permalinks or internal links, do it like this:
+
+```html
+{{ site.baseurl }}{{ post.url }}
+```
+
+**note** that there is no slash between the two variables.
+
+Finally, if you'd like to preview your site before committing/deploying using
+
+ ```cmd
+ $ jekyll serve
+ ```
+ be sure to pass an empty string to the ```--baseurl``` option, so that you can view everything at localhost:4000 normally, Like this:
+
+```cmd
+$ jekyll serve --baseurl ''
+```
+
+This way you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with /project-name and resolve properly.
 
 I'd like to note that I found my pictures inside my posts were coming back with 404, so I needed to update my post's links to use Liquid markup language:
 
@@ -91,8 +83,8 @@ I'd like to note that I found my pictures inside my posts were coming back with 
 ```
 And that should work fine in GH-Pages.
 
- ## Contact Information
+## Contact Information
 
- You can always find me on [Twitter](https://twitter.com/lmwatsonn), [LinkedIn](https://www.linkedin.com/in/watsonlm) or shoot me an email at latoyamwatson@gmail.com
+You can always find me on [Twitter](https://twitter.com/lmwatsonn), [LinkedIn](https://www.linkedin.com/in/watsonlm) or shoot me an email at latoyamwatson@gmail.com
 
- Enjoy reading!
+Enjoy reading!
