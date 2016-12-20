@@ -6,8 +6,9 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: "lwatsonlm-github-io-tech-eats"
-google_analytics: "UA-76296508-1"
+google_analytics: UA-76296508-1
 title: "Tech Eats: Stories of Tech and Food"
+repository: "LWatsonlm/Tech-Eats"
 
 defaults:
   -
@@ -15,6 +16,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: "Tech Eats: Stories of Tech and Food"
+      comments: true
 
 description: "Tech Eats: Tech and Food Stuff"
 author:
