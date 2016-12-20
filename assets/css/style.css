@@ -9,11 +9,11 @@ body{
 	top: 0px;
 	padding-top: 10%;
 	background-color: #2c3e50;
-	color: #fff;
+	color: #FDBF00;
 }
 
 #latoya {
-	height: 150px;
+	height: 165px;
 	width: 170px;
 }
 
@@ -92,8 +92,12 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #2C3E50#364f67;
+	color: #2c3e50#364f67;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.page-header h1 {
+	color: #FDBF00;
 }
 
 @media only screen and (min-width: 768px) {
