@@ -1,13 +1,13 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 8 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: "dbyll"
-title: Tech Eats
+disqus: ""
+google_analytics: ""
+title: "Tech Eats: Stories of Tech and Food" 
 
 defaults:
   -
@@ -22,7 +22,6 @@ author:
   email: latoyamwatson@gmail.com
   github: LWatsonlm
   twitter: lmwatsonn
-  pinterest: asd123
   linkedin: watsonlm
   bio: "Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C."
   email_md5: 726351295ec82e145928582f595aa3aa
