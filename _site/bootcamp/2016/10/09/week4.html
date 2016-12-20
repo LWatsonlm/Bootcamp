@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Is Coding Bootcamp Right for You? Week 4 in The Life of a Coding Bootcamper</title>
+	
+	<meta name="description" content="Last week, I spent many hours on my first project, a Hangman game using JavaScript and jQuery. It was a blast and I was ready to learn more. Luckily, that's just what happened... let's get started!">
+	
+	<meta name="author" content="Latoya M. Watson">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/LWatsonlm">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				Tech Eats: Stories of Tech and Food
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs" style="">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/img/latoyawatson.jpg" class="img-circle" id="latoya">
+	</a>
+	<h3 class="title">
+        <a href="/">Tech Eats: Stories of Tech and Food</a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C.
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/LWatsonlm">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/watsonlm">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>Is Coding Bootcamp Right for You? Week 4 in The Life of a Coding Bootcamper <small>Week 4</small></h1>
+</div>
+
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   October
+	   9th,
+	   
+	   2016
+	 </span>
+	  <div class="article_body">
+	  <p>HI! I’m glad you decided to join us again. Last week, I spent many hours on my first project, a Hangman game using JavaScript and jQuery. It was a blast and I was ready to learn more.
+Luckily, that’s just what happened… let’s get started!</p>
+
+<h1 id="day-1-intro-to-ruby">Day 1: Intro to Ruby</h1>
+
+<p>Ruby is a familiar term to me - I knew it was a programming language and I’ve played around with a super fun <a href="http://tryruby.org/levels/1/challenges/0">Ruby Tutorial</a> before so I was pumped to officially learn Ruby. What’s Ruby, you ask? Well, Ruby is an open-source server side programming language that focus on simplicity and productivity. The moment we started learning Ruby, I knew it was a language I wanted in my toolkit.</p>
+
+<p><img src="/img/ruby.jpg" alt="ruby jokes" /></p>
+<center>Ruby jokes... ha ha ha</center>
+
+<p><br /></p>
+
+<h2 id="intro-to-ruby-15-hours">Intro to Ruby: 1.5 hours</h2>
+<p>For our intro into Ruby, we chatted a lot about the history, the creator of Ruby, and we compared and contrasted Ruby and Javascript as programming languages. My favorite difference is how natural Ruby feels compare to Javascript.</p>
+
+<center>"Ruby is simple in appearance, but is very complex inside, just like our human body." — Yukihiro "Matz" Matsumoto</center>
+
+<p><br /></p>
+
+<p>Quick note: If you’re curious, check out the <a href="https://www.ruby-lang.org/en/about/">history of Ruby and it’s creator, Matz.</a> The really fascinating!</p>
+
+<p>In class, we installed Ruby and PRY ( we use PRY to run ruby in a REPL, read, evaluate, print, loop) from here, we learned about data types, arrays, hashes and methods.</p>
+
+<h2 id="ruby-enums-25-hours">Ruby Enums: 2.5 Hours</h2>
+<p>After our lunch/break/open office time with the instructors (reminder: we have a break from 12:30 - 2:30pm everyday) we dived into Ruby Enumerables!</p>
+
+<p>What is an enumerable?
+In Javascript, if we wanted to print a list of items inside an array, we would write a for or while loop. In Ruby, we can use enumeables! Enumerables are loops used specifically to do something to or with each item in an collection. We learned about the .each and .map enumerables.</p>
+
+<p>We spent a lot of time doing class exercises using our new found Ruby skills.</p>
+
+<p>Confidence level (1-5): 4
+Optimistic level: High</p>
+
+<h1 id="day-2-outcomes-and-ruby-lab">Day 2: Outcomes and Ruby Lab</h1>
+
+<h2 id="outcomes-25-hours">Outcomes: 2.5 Hours</h2>
+<p>Every Tuesday we meet with the Outcomes team from 10am - 12:30pm. Outcomes is a time to discuss resume building, interview prep, defining our personal brand, Linkedin profile building, and peer reviewing of all things professional.</p>
+
+<h2 id="ruby-lab-25-hours">Ruby Lab: 2.5 Hours</h2>
+<p>We were given a lab to complete before 5pm. The lab relied heavily upon Ruby Enums and boy, was it challenging. This was one of the first labs that I felt unsure about. Usually, labs are all day but not today. The instructors helped out a lot and I finish the lab but I didn’t go home feeling too hot.</p>
+
+<p>Confidence level (1-5): 2.5
+Optimistic level: Meh…</p>
+
+<h1 id="day-3-intro-to-object-oriented-programming-in-ruby">Day 3: Intro to Object-Oriented Programming in Ruby</h1>
+
+<p>Yesterday was rough on me so I spent majority of last night reviewing Ruby. It’s difficult to really like something that you barely understand… I feel like Ruby is a language that I can really geek out on but unfortunately I’m not there just yet. Today, we dived deeper into Ruby as a OOP language.</p>
+
+<h2 id="ruby-intro-to-oop-1-25-hours">Ruby Intro to OOP 1: 2.5 hours</h2>
+<p>Ruby is an object-oriented language. An object is a collection of related attributes (aka properties) and methods (aka behavior). Think of an object as a little machine: it has displays you can read and buttons you can push.</p>
+
+<p>We created our first Object in class, using class and instances and walked through the relationship between .new() and def initialize().</p>
+
+<h2 id="ruby-intermediate-oop-in-ruby-25-hours">Ruby Intermediate OOP in Ruby: 2.5 Hours</h2>
+<p>More OOP practice - we spent about a hour building a Person Class using variables, instances and inheritance. Just like we get traits from our parents, we can use a feature called inheritance to create multiple classes (children) that share properties and methods from their parents.</p>
+
+<p>We ended the day with review and a sneak peek into Ruby on Rails… Exciting stuff but still feeling a bit shaky on everything. Today was packed with tons of new vocab and there’s 3 homework assignments due tomorrow at 9am. Today quickly became a 12 hour day, as I stayed at school to study and finish homework assignments until 9pm.</p>
+
+<p>Confidence level (1-5): 3
+Optimistic level: Meh… there was a lot of material today.</p>
+
+<h1 id="day-4-ruby-lab">Day 4: Ruby Lab</h1>
+
+<p>Can I start off by saying that lab days are my favorite days of the week! Why, you ask? A lot of different reasons:</p>
+
+<ul>
+  <li>No class!! Finally a chance to catch up and solidify everything learned from the week</li>
+  <li>You can work from anywhere. I usually stay on campus but sometimes I’ll take my lab over to the nearest coffee shop</li>
+  <li>Instructors are available majority of the day to answer any questions. There’s plenty of opportunity for one on one assistance</li>
+  <li>I learn by doing. The lab is the time to try things, fail at those things, make mistakes and learn as much as possible within the day</li>
+</ul>
+
+<p><br />
+It’s been a rough week for me so this lab was much needed. We were given a choice to what lab to tackle (ranked by difficulty. All to be built in the command line):</p>
+
+<ol>
+  <li>Flash Cards</li>
+  <li>Personal Finance</li>
+  <li>Battleship</li>
+</ol>
+
+<p><br />
+Even though I had a rough week, I still wanted a challenge so I picked Personal Finance. Although, the subject was pretty boring, I successfully completed the project and felt great about my progress through a bumpy time.</p>
+
+<p>Confidence level (1-5): 4
+Optimistic level: Much better!</p>
+
+<h1 id="day-5-data-modeling-sql-erd-postgres-and-active-directory">Day 5: Data Modeling, SQL, ERD, Postgres and Active Directory</h1>
+
+<p>Started off the day at 9am with Slips - remember those? Our digital flashcards! Stand up in front of the class and face your fears!</p>
+
+<h2 id="erd-and-databases-15-hours">ERD and Databases: 1.5 Hours</h2>
+<p>We reviewed and broke out into groups to draw out our very first Entity Relationship Diagram (ERD for short!) We learned how to identify and diagram one-to-one, one-to-many and many-to-many relationships between data entities and discussed data normalization.</p>
+
+<p><img src="/img/tunr-erd.png" alt="erd" /></p>
+<center>a simple ERD for our tunr app</center>
+
+<p><br /></p>
+
+<h2 id="active-record-25-hours">Active Record: 2.5 hours</h2>
+<p>This class was massive. We went head first into ORMs, object relational mapping - A programming technique for converting data between incompatible type systems in object-oriented programming languages. Active Record is an ORM.</p>
+
+<p>We created our Postgres database, setup our SQL Schema and Seeded into the Database. Super cool stuff! From here, we did a full walkthrough, following the instructor, on a full implementation of CRUD (create, read, update, delete functionality) application within Active Record. There were a lot of questions and a great discussion on rail’s ‘Convention over Configuration’ mindset.</p>
+
+<p>Lastly, during the last 30 minutes of class, we reviewed everything from the last 2 hours and since it was Friday – we broke exactly at 5pm to partake in GA’s (free) happy hour that’s offered to students every Friday.</p>
+
+<p>Whew! What a week. I hit some ups but mostly chilled at the bottom of The Emotional Cycle of Change, not a fun place to be.</p>
+
+<p><img src="/img/graph.jpeg" alt="emotional cycle of change" /></p>
+<center>The Emotional Cycle of Change</center>
+
+<p><br />
+But I’m proud that I stuck with it and gave it my all. This week was tough but I’m much stronger than I was on Monday and even more determined.</p>
+
+<p>Thanks for reading! If you have questions or suggestions of things you would like to learn in regards to the course, please let me know in the comments! Or shoot me a note. I’d love to hear from you. Until next time.</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			
+				<li><a href="/categories.html#bootcamp-ref">
+					bootcamp <span>(8)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			
+				<li>
+					<a href="/tags.html#ruby-ref">
+					ruby <span>(4)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Is Coding Bootcamp Right for You? Week 4 in The Life of a Coding Bootcamper&via=lmwatsonn"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="/img/latoyawatson.jpg" class="img-rounded author-image" id="smaller-latoya" />
+        <h4 class="section-title author-name">Latoya M. Watson</h4>
+        <p class="author-bio">Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C.</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/bootcamp/2016/09/25/week3.html" title="Is Coding Bootcamp Right for You? Week 3 in The Life of a Coding Bootcamper">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/bootcamp/2016/10/16/week5.html" title="Is Coding Bootcamp Right for You? Week 5 in The Life of a Coding Bootcamper">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+
+	<div class="col-sm-2 sidebar-2">
+
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2016 Latoya M. Watson with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+

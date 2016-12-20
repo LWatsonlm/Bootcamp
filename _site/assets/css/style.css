@@ -13,8 +13,17 @@ body{
 }
 
 #latoya {
-	height: 160px;
+	height: 150px;
 	width: 170px;
+}
+
+#smaller-latoya {
+	height: 75px;
+	width: 75px;
+}
+
+img {
+	text-align: center;
 }
 
 .sidebar-header {

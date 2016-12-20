@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: ""
 google_analytics: ""
-title: "Tech Eats: Stories of Tech and Food" 
+title: "Tech Eats: Stories of Tech and Food"
 
 defaults:
   -
@@ -23,7 +23,7 @@ author:
   github: LWatsonlm
   twitter: lmwatsonn
   linkedin: watsonlm
-  bio: "Tech Eats: Blogging about Tech and Food Stuff from Washington, D.C."
+  bio: "Blogging about Tech and Food Stuff from Washington, D.C."
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml

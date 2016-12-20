@@ -1,32 +1,976 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tech Eats</title>
+		<title>Tech Eats: Stories of Tech and Food</title>
 		<description>Tech Eats: Tech and Food Stuff</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Test-Is Coding Bootcamp Right For You? Life During Coding Bootcamp</title>
-				<description>&lt;h2 id=&quot;hello-world&quot;&gt;hello world&lt;/h2&gt;
+				<title>Is Coding Bootcamp Right for You? Week 7 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;Project 2 has come and gone. It was a week full of many lessons learned and victory dances. Let’s get to it.&lt;/p&gt;
 
-&lt;p&gt;pic 3:
- &lt;img src=&quot;/img/latoyawatson.jpg&quot; alt=&quot;3&quot; /&gt;
-testtesteasteasetaesteteat&lt;/p&gt;
+&lt;h1 id=&quot;project-2-building-our-first-full-stack-app&quot;&gt;Project 2: Building our First Full-Stack App:&lt;/h1&gt;
 
-&lt;h1 id=&quot;will-this-work&quot;&gt;will this work??&lt;/h1&gt;
+&lt;h2 id=&quot;lets-review-the-technical-requirements&quot;&gt;Let’s review the Technical Requirements&lt;/h2&gt;
+
+&lt;p&gt;The app must…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be built in Rails.&lt;/li&gt;
+  &lt;li&gt;Have at least 2 models with at least 1 association (more if it makes sense).&lt;/li&gt;
+  &lt;li&gt;Have complete RESTful routes for at least one of your resources with GET, POST, PUT, and DELETE.&lt;/li&gt;
+  &lt;li&gt;Have error handling &amp;amp; validations for all resources&lt;/li&gt;
+  &lt;li&gt;Utilize an ORM to create a database table structure (e.g. ActiveRecord) and interact with your relationally-stored data.&lt;/li&gt;
+  &lt;li&gt;Have semantically-clean HTML and CSS that passes the standard validators.&lt;/li&gt;
+  &lt;li&gt;Record and publish a video on Youtube describing your process, showing off your code, and speaking about things you’ll like to add to your app&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-i-do&quot;&gt;What did I do?&lt;/h2&gt;
+&lt;p&gt;Have you ever had a random idea, thought or just a question you wanted to throw out into the world and get real-time feedback on?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/idea.ly-homepage.png&quot; alt=&quot;ideal.ly&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Introducing... ideal.ly!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I built a fully functional CRUD full-stack app with user authentication and permissions. Rails on the front end, ActiveRecord as my ORM, and Postgres for my database. For this project, I wanted to focus on writing clean, easy to follow, and DRY code. DRY = Don’t Repeat Yourself.&lt;/p&gt;
+
+&lt;p&gt;I challenged myself to implement Ruby gems not taught in class so I could practice reading other developer’s documentation. I installed and played around with a hand full of gems but unfortunately, I found out that not all gems are created equal.&lt;/p&gt;
+
+&lt;p&gt;I was able to find a neat gem called &lt;a href=&quot;https://github.com/ryanto/acts_as_votable&quot;&gt;Acts As Votable.&lt;/a&gt; This gem allows users to upvote and downvote their own and other user’s ideas. An user can only vote once per vote.&lt;/p&gt;
+
+&lt;p&gt;I’m very proud of keeping true to my goal and delivering DRY code. I used partials and helpers in my application that helped keep my files neat, readable and easy for other developers to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/idea.ly.png&quot; alt=&quot;idea.ly&quot; /&gt;
+&lt;img src=&quot;/img/ideal.ly-res.png&quot; alt=&quot;idea.ly&quot; /&gt;
+&lt;img src=&quot;/img/idealy.png&quot; alt=&quot;idea.ly&quot; /&gt;
+&lt;img src=&quot;/img/idealy2.png&quot; alt=&quot;idea.ly&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshots of my project 2: idea.ly&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m pretty darn proud of my project 2. I enjoyed learning more about Rails, ActiveRecord and Postgres. I now have my first full stack application where users can log in/out, leave the site and data will persistent within my database.  It’s definitely worth a pat on the back.&lt;/p&gt;
+
+&lt;p&gt;Once the project was done, I took 1 hour to record my presentation using QuickTime. With QuickTime, you can easily record whatever is on your computer screen. For recording your screen, I highly recommend grabbing headphones and using QuickTime!&lt;/p&gt;
+
+&lt;p&gt;Moving on, as promised here are my project 2 links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eYL_NMl8m00&amp;amp;feature=youtu.be&quot;&gt;Youtube link&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/LWatsonlm/idea.ly&quot;&gt;Github link&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://fathomless-bayou-24323.herokuapp.com/&quot;&gt;Live Demo&lt;/a&gt; - Remember this is public so if you use it, anyone can see anything you post!&lt;/p&gt;
+
+&lt;h1 id=&quot;day-5-intro-to-angular--campus-lunch--student-surprise&quot;&gt;Day 5: Intro to Angular &amp;amp;&amp;amp; Campus Lunch &amp;amp;&amp;amp; Student Surprise!&lt;/h1&gt;
+
+&lt;p&gt;No time off. Right back to learning new material the day after project submission. Today is a special day because today we are stepping into the A of the MEAN stack. Angularjs.&lt;/p&gt;
+
+&lt;h2 id=&quot;intro-to-angular&quot;&gt;Intro to Angular&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/angular.gif&quot; alt=&quot;gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am super pumped to start moving into the MEAN stack and learn a brand new front end framework called Angularjs. Today in class, we’re building a classic application… a Todo App.&lt;/p&gt;
+
+&lt;p&gt;We bootstrapped our Angular app, learned how to use Angular directives such as ‘ng-app, ng-repeat, ng-model, ng-click, ng-show and ng-hide’ and walked through coding a Todo App in class.&lt;/p&gt;
+
+&lt;h2 id=&quot;campus-lunch&quot;&gt;Campus Lunch&lt;/h2&gt;
+
+&lt;p&gt;Every other Friday, General Assembly provides catered lunch for the whole campus. This is clearly one of the best perks and a highly anticipated one. Obviously, free lunch taste better and it’s a lot of fun hanging and eating with my classmates.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161014_120806.jpg&quot; alt=&quot;lunch&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Campus Lunch: Every other Friday&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;surprise&quot;&gt;Surprise!&lt;/h2&gt;
+
+&lt;p&gt;Project 2 is done and we have two more projects to go! We’re right at the midpoint of our adventure and because of this rite of passage we were rewarded our official WDI General Assembly zip up hoodie! Yes, now we are a free walking marketing board for GA! Haha, I see right through General Assembly but hey, it’s cool to represent! These hoodies are not available to the public and only full time students receive them so yeah, it’s pretty special.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161127_182955.jpg&quot; alt=&quot;ga hoodie&quot; /&gt;
+&lt;img src=&quot;/img/IMG_20161127_183039.jpg&quot; alt=&quot;ga hoodie&quot; /&gt;
+&lt;img src=&quot;/img/IMG_20161127_183036.jpg&quot; alt=&quot;ga hoodie&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Rite of Passage: WDI Hoodie&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lab-and-happy-hour&quot;&gt;Lab and Happy Hour&lt;/h2&gt;
+
+&lt;p&gt;To wrap up this full week, we were given a lab to solidify the Angular lesson taught earlier today. The theme of the lab: Superhero Phonebook.&lt;/p&gt;
+
+&lt;p&gt;Using Angular, build a superhero phonebook using directives, add a button next to each superhero that, when clicked, causes the hero’s image to be displayed on the page. Also, this phonebook should have search capabilities where you can easily type a term and the phonebook responds accordingly. Really fun stuff that definitely gave me a better understanding of Angular.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/angularjs.jpg&quot; alt=&quot;angular&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What a week! Time to wrap up and head to Happy Hour. Until next time!&lt;/p&gt;
 </description>
-				<pubDate>Sun, 11 Dec 2016 00:00:00 -0500</pubDate>
-				<link>/bootcamp/2016/12/11/hehhe.html</link>
-				<guid isPermaLink="true">/bootcamp/2016/12/11/hehhe.html</guid>
+				<pubDate>Sun, 30 Oct 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/10/30/week7.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/10/30/week7.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 6 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;Last week, we started Ruby and Rails, this week we’re diving deeper into Rails and we hit a big milestone… the start of Project 2! Let’s get going.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-checkpoint-rails-review--two-labs&quot;&gt;Day 1: Checkpoint, Rails Review || two Labs:&lt;/h1&gt;
+&lt;p&gt;We started off the day with a Checkpoint. Remember, Checkpoints are informal quizzes that help check yourself on where you’re at in the material.&lt;/p&gt;
+
+&lt;h2 id=&quot;morning-rails-review-or-lab---25-hours&quot;&gt;Morning Rails Review or Lab - 2.5 hours:&lt;/h2&gt;
+&lt;p&gt;After the Checkpoint, we were given two options: Rails Review with our instructor or a pair programming lab. I always love a good review session so I opted to review. Most of the class picked this option, making the review session upbeat and very informational.&lt;/p&gt;
+
+&lt;h2 id=&quot;afternoon-lab-hogwarts---25-hours&quot;&gt;Afternoon Lab: Hogwarts - 2.5 hours:&lt;/h2&gt;
+&lt;p&gt;If you read previous weeks, you’ll know that I love labs! Lab day is my time to really dig into the code, break things, fix things, ask questions and feel proud when it’s all said and done.&lt;/p&gt;
+
+&lt;p&gt;One of my favorite things about GA is that our labs/homework are designed around pop culture themes such as Harry Potter, Game of Thrones, Pokemon, etc. Today we built a full CRUD app with nested resources and RESTful paths in Rails.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/hogwarts.png&quot; alt=&quot;lab&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshot of my Rails lab&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We ended the day at 5pm, with instructor’s office hours from 6-8pm.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-outcomes--rails-users-session--flash&quot;&gt;Day 2: Outcomes &amp;amp;&amp;amp; Rails: Users, Session &amp;amp; Flash:&lt;/h1&gt;
+
+&lt;h2 id=&quot;outcomes-25-hours&quot;&gt;Outcomes: 2.5 Hours:&lt;/h2&gt;
+&lt;p&gt;In previous weeks, I realized I didn’t talk too much about Outcomes so I’m going to try to do a better job at explaining what happens every Tuesday morning.&lt;/p&gt;
+
+&lt;p&gt;Every Tuesday, we have an full hour from 9am-10am to prep for Outcomes. We aren’t in the classroom during this time. Mostly the class hangs out and chats about new job postings, resumes and portfolio ideas.&lt;/p&gt;
+
+&lt;p&gt;In class, we workshopped how to narrow down our job search strategy, what’s the must-haves versus nice-to-haves and how to get what we want in our next career. Lastly, we took professional head shots from a professional photographer.&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-users-session--flash---25-hours&quot;&gt;Rails: Users, Session &amp;amp; Flash - 2.5 Hours:&lt;/h2&gt;
+&lt;p&gt;Last week in class, we built our first Rails app, called Tunr. Tunr is a small CRUD app that lets you view artists and listen to snippets of their songs. It’s pretty cool.&lt;/p&gt;
+
+&lt;p&gt;In this lesson, we added a big feature to our Tunr app: User authentication. By that I mean the ability for a user to sign up, sign in and sign out of an application. This a big feature because up until this point, all of our applications have had one single user.&lt;/p&gt;
+
+&lt;p&gt;This was a heavy class so it was broken down into three parts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adding Sessions: 40 mins
+A crucial part to any website that lets users log on or off. Without sessions Amazon’s shopping carts wouldn’t be able to hold our stuff after every page refresh.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add Permissions: 30 mins
+Now that users can log in and out, permissions are rules for the users to what they can and cannot do while login. Such as an user should only be able to modify their own email/password.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adding Flash: 30 mins
+Flash is a built in feature of Rails that we use to display errors messages or alerts on the browser for users.
+This class was hands on and code heavy. Which makes for a great class. Felt really good about today.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-devise--rails-many-to-many&quot;&gt;Day 3: Devise &amp;amp;&amp;amp; Rails Many-to-Many&lt;/h1&gt;
+
+&lt;h2 id=&quot;devise---25-hours&quot;&gt;Devise - 2.5 Hours:&lt;/h2&gt;
+&lt;p&gt;Yesterday, we spent a lot of time adding users, permissions and updating flash messages. Today, we learned of a cool little gem called Devise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/devise.png&quot; alt=&quot;devise&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Devise is a gem that simplifies implementing user authentication. Literally, it simplifies the implementation of users all in one gem. I highly recommend it for quickly getting users up and running… &lt;a href=&quot;https://github.com/plataformatec/devise&quot;&gt;Read more about Devise.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We spent the class installing devise, linking up our sign in pages, limiting user abilities, and customizing devise’s views.&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-many-to-many---25-hours&quot;&gt;Rails Many-to-Many - 2.5 Hours:&lt;/h2&gt;
+&lt;p&gt;Previously, we created our Rails app with one-to-one and one-to-many relationships. This class, we went beyond that and ventured into many-to-many relationships.&lt;/p&gt;
+
+&lt;p&gt;Simply put, a many-to-many relationship means there’s records that have more than one relationship in one table with a record in another table. Many-to-many applications are pretty common in web applications… and in life! For example, theaters can show many movies and movies are shown in many theaters. And unlike one-to-many, we can’t simply add a foreign key… we actually need to create a separate table called a ‘join table’.&lt;/p&gt;
+
+&lt;p&gt;We spent the class adding a new model called Favorites to our Tunr app. By updating the controller, view and routes, our users can now have favorite songs on many different songs. A pretty awesome feature.&lt;/p&gt;
+
+&lt;p&gt;Homework is due tomorrow by 9am (per usual). It may be helpful noting that Wednesdays are the days more than half my classmates stay behind and work on homework. Although homework is posted in our calendar a week before, the lessons taught on Wednesdays usually bring the assignment all together… so there’s some strategy in our procrastination! ;)&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4-full-lab-day&quot;&gt;Day 4: Full Lab Day&lt;/h1&gt;
+&lt;p&gt;After waking up entirely too early, I realized that I work much better staying up late rather than waking up early to get the homework in by 9am. My biggest advice is to figure out what works for you as soon as possible. I’m definitely hitting the coffee hard today.&lt;/p&gt;
+
+&lt;h2 id=&quot;game-of-thrones-all-day-lab&quot;&gt;Game of Thrones: All Day Lab&lt;/h2&gt;
+&lt;p&gt;Good thing it’s lab day! Another fun theme from our instructors - Houses of Westeros. The assignment is build a Rails app with two models: Houses and Characters, creating migrations and seed our data to our database.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/GoT.jpg&quot; alt=&quot;GoT&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Game of Thrones Lab: Houses of Westeros&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had a lot of trouble with my lab. Unfortunately, creating the schema, migrating, seeding and connecting relationships between my two models gave me tons of trouble. However, along with all the problems, came a lot of ‘a-ha’ moments. The ‘a-ha’ moments are the moments you’ll carry with you through out your career.&lt;/p&gt;
+
+&lt;p&gt;I completed my lab, submitted before 5pm, and although I had many problems, I learned a lot and I still feel optimistic about Rails.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-5-project-2-building-our-first-full-stack-application&quot;&gt;Day 5: Project 2: Building Our First Full-stack Application&lt;/h1&gt;
+&lt;p&gt;Omgz, you guys! It’s here. Project 2 is here. Can you guess what Project 2 is all about? If you said Rails, ding ding ding, you are CORRECT!&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-requirements&quot;&gt;Technical Requirements:&lt;/h3&gt;
+&lt;p&gt;The app must…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be built in Rails.&lt;/li&gt;
+  &lt;li&gt;Have at least 2 models with at least 1 association (more if it makes sense).&lt;/li&gt;
+  &lt;li&gt;Have complete RESTful routes for at least one of your resources with GET, POST, PUT, and DELETE.&lt;/li&gt;
+  &lt;li&gt;Have error handling &amp;amp; validations for all resources&lt;/li&gt;
+  &lt;li&gt;Utilize an ORM to create a database table structure (e.g. ActiveRecord) and interact with your relationally-stored data.&lt;/li&gt;
+  &lt;li&gt;Have semantically-clean HTML and CSS that passes the standard validators.&lt;/li&gt;
+  &lt;li&gt;Record and publish a video on Youtube describing your process, showing off your code, and speaking about things you’ll like to add to your app&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have until no later than next Thursday at 2pm to complete our project and its deliverables. Open office hours will be available every day from 10am-12:30pm and from 6-8pm. However, this time, our instructors are making us leave the nest a bit… we must submit a Github Issue for any assistance outside of open office hours!&lt;/p&gt;
+
+&lt;p&gt;Whew. Next week is project week where I’ll share my Youtube video, Github link and project picture gallery with you all. Happy Coding!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 23 Oct 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/10/23/week6.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/10/23/week6.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 5 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;Hey, hey, hey! Welcome back, I’m happy you decided to join us again. Last week, I hit the bottom of the emotional cycle of change. It’s a scary place down here but I don’t intend to stay for much longer. Let’s dive in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/graph.jpeg&quot; alt=&quot;The emotional cycle of change&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;The Emotional Cycle of Change&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-sinatra--rest&quot;&gt;Day 1: Sinatra &amp;amp; REST&lt;/h1&gt;
+
+&lt;p&gt;So, we’ve been building Ruby apps in the Command Line and collecting data in Postgres but how in the world do we bring our apps to the browser? Enter, Sinatra.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sinatra.jpeg&quot; alt=&quot;Sinatra&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Well, maybe not that Sinatra.&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sinatra is a framework for quickly creating web applications in Ruby with minimal effort. Other ways include Rails, Express / Node.js, Django, PHP, etc.&lt;/p&gt;
+
+&lt;p&gt;Sinatra isn’t nearly as popular for a Ruby framework as Rails, but has a use case when building smaller scale apps because it’s minimalistic and lightweight as opposed to the “heaviness” of Rails, which is more apt for a larger production site.&lt;/p&gt;
+
+&lt;p&gt;So, we spent the first hour building our first Sinatra app together as a class. And the last hour building our own app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sinatra puns.png&quot; alt=&quot;Sinatra Puns&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Sinatra is full of puns. Makes for a good time!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rest-25-hours&quot;&gt;REST: 2.5 hours:&lt;/h2&gt;
+&lt;p&gt;Browsers have different “ways of talking” to servers. These are called methods. REST, or REpresentational State Transfer, is a convention for what these methods should be to standardize all the communication between browsers and servers.&lt;/p&gt;
+
+&lt;p&gt;Knowing REST is important because the vast majority of web developers have agreed to follow this same convention.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2016-10-31_0038.png&quot; alt=&quot;RESTful&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We spent a good chunk of the day building our CRUD and RESTful paths functionality into our Sinatra app. Most of the lesson we followed along with the instructor. Next, we were given a different project to build while applying what we’ve learn into our local app.&lt;/p&gt;
+
+&lt;p&gt;Feeling good about the day, I left school right after class, feeling optimistic once again!&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 4
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-outcomes-sinatra-and-activerecord&quot;&gt;Day 2: Outcomes, Sinatra and ActiveRecord&lt;/h1&gt;
+
+&lt;h2 id=&quot;outcomes-15-hours&quot;&gt;Outcomes: 1.5 Hours&lt;/h2&gt;
+&lt;p&gt;On Tuesday mornings we meet with Outcomes. Outcomes assist students with the ‘after life’ of General Assembly. This week we went on a studio tour to iStrategy Labs to get an insider look into the life of a web developer. It was great to get away from campus and network with folks in my industry.&lt;/p&gt;
+
+&lt;h2 id=&quot;sinatra-and-activerecord-25-hours&quot;&gt;Sinatra and ActiveRecord: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;After our tour and lunch, we headed back into the classroom.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161007_153244.jpg&quot; alt=&quot;back in class&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Back at it!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sinatra helps us build simple web applications quickly. We do not, however, have any way to persist data. ActiveRecord, on the other hand, lets us store data in a database easily but has no native web interface - only the command line. Put the two together, and we can build an app with a web interface that is backed by a database.&lt;/p&gt;
+
+&lt;p&gt;We spent the rest of the afternoon walking through building out a full CRUD Tunr app using Sinatra and ActiveRecord. A quick run down of this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sketch out our ERD diagram&lt;/li&gt;
+  &lt;li&gt;Define our Schema&lt;/li&gt;
+  &lt;li&gt;Setup app.rb to load files using require and require_relative&lt;/li&gt;
+  &lt;li&gt;Made our Views - index, show, new views using .erb (embedded ruby file)&lt;/li&gt;
+  &lt;li&gt;Created forms for entering and editing data&lt;/li&gt;
+  &lt;li&gt;Deployed full CRUD!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-all-day-sinatra-lab&quot;&gt;Day 3: All Day Sinatra Lab&lt;/h1&gt;
+
+&lt;p&gt;Pokenatra was the name of the lab and I knew it was going to be a good day. I’m a bit obsessed with Pokemon and this lab was all about creating a fully functional CRUD on a Pokemon model (i.e., you can read, create, update and delete a Pokemon). It was basically creating my own Pokedex. You can check out my poke github, if interested.&lt;/p&gt;
+
+&lt;p&gt;Writing code is definitely easier when you’re really into the topic. That was my biggest takeaway from this lab. I’m keeping that top of mind for industry searching on job market.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4-intro-to-rails--models-and-migrations&quot;&gt;Day 4: Intro to Rails &amp;amp;&amp;amp; Models and Migrations&lt;/h1&gt;
+
+&lt;h2 id=&quot;checkpoint-1-hour&quot;&gt;Checkpoint: 1 hour&lt;/h2&gt;
+&lt;p&gt;We had a quiz/checkpoint the very beginning of the day. All quizzes happen right at 9am and we have a hour to complete the quiz. It’s open note/open Google so it’s not your typical quiz - this is mostly for yourself to see how comfortable you are with the material.&lt;/p&gt;
+
+&lt;h2 id=&quot;intro-to-railsmvc-15-hours&quot;&gt;Intro to Rails/MVC: 1.5 Hours&lt;/h2&gt;
+&lt;p&gt;Yes. We have arrived. It’s finally the moment I’ve been waiting for… Ruby on Rails. Or just Rails. Apparently, you sound like a n00b if you say the full name. Anyway, Rails is a web application development framework written in the Ruby language.&lt;/p&gt;
+
+&lt;p&gt;Rails follows the MVC pattern. MVC is all about separating your code into separate sections…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Models: they represent the data in our application and handle “business logic” using model methods&lt;/li&gt;
+  &lt;li&gt;Views: they describe how to present your data in a way that the user can see in the browser&lt;/li&gt;
+  &lt;li&gt;Controllers: they are responsible for responding to user requests, interacting with models and loading views&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;And because Rails is for web apps, there’s one additional component it adds to MVC: a router.  Take a look at this picture below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/MVC rails.png&quot; alt=&quot;MVC rails&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Rails rMVC Diagram&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The rest of the class was setting up our first Rails app! Very exciting times. Check this lovely confirmation page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/yay-rails.png&quot; alt=&quot;rails&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;The confirmation page after connecting to Rails&lt;/center&gt;
+
+&lt;p&gt;Speaking of confirmation pages, one of the best features of Rails is its error pages! Crazy, right? Rails provides detailed, understandable errors that provide guidance when building an application. The error pages even come with a command line at the bottom for easy debugging!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rails error no route.png&quot; alt=&quot;routing error&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Error page from Rails - No route!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Love it.&lt;/p&gt;
+
+&lt;p&gt;Speaking of error messages, our instructors let us in on a little secret that was too good not to tweet..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rails-tweet.png&quot; alt=&quot;rails tweet&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;The secret... co-signed by my classmate, Nick Oki!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-models-and-migrations-25-hours&quot;&gt;Rails Models and Migrations: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;Mostly in this class, we followed the instructors along while we created our Models and Migrations into our Rails app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rails migration.png&quot; alt=&quot;rails migration&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;How to rename a column using a migration&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because we mostly created migrations to fix common errors in rails, not much else to say for this class!&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-5-slips-rails-views-and-controllers--rails-routing-and-resources&quot;&gt;Day 5: Slips, Rails Views and Controllers &amp;amp;&amp;amp; Rails Routing and Resources&lt;/h1&gt;
+
+&lt;h2 id=&quot;slips-1-hour&quot;&gt;Slips: 1 Hour&lt;/h2&gt;
+&lt;p&gt;Digital flashcards. This time we broke into small groups of 4 and individually answered questions. I’m still on the fence to whether or not I like this format better. The hour feels longer because you’re answering more questions but on the other hand, you aren’t standing up in front of the entire class.&lt;/p&gt;
+
+&lt;h2 id=&quot;views-and-controllers-15-hours&quot;&gt;Views and Controllers: 1.5 Hours&lt;/h2&gt;
+&lt;p&gt;In this class, we built out our Rails Controllers and it’s associated Views using .erb and .rb files. The learning objectives of this class was as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain how the router directs requests to a specific controller and action&lt;/li&gt;
+  &lt;li&gt;Explain how controller actions map to specific views&lt;/li&gt;
+  &lt;li&gt;Describe the role of instance variables in sharing information between an action and its view&lt;/li&gt;
+  &lt;li&gt;Describe the Rails convention for implicitly rendering a view from an action&lt;/li&gt;
+  &lt;li&gt;Differentiate between redirect and render&lt;/li&gt;
+  &lt;li&gt;Use strong_params to limit what attributes can be modified&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+By the end of this class, we built our first full rails CRUD app! Homework was assigned and we were on our way to lunch.&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-routing-and-resources-25-hours&quot;&gt;Rails Routing and Resources: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;This was another class that we mostly followed along with the instructor and coded with a partner. We chatted a lot about a rails developer’s best friend: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ rails routes&lt;/code&gt; command. The simple CLI line that gives you back so much more:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rails routes.png&quot; alt=&quot;rails routes&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Introducing: the ever most helpful 'rails routes' command!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We finished out the lesson coding our RESTful Routes, and lastly, created Nested Resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/nested rails routes.png&quot; alt=&quot;nested rails routes&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Nested Resources changes up 'rails routes' quite a bit!&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Alright! Another solid week in the books. I really enjoyed this week and I’m feel right back at the top of my emotional cycle. Whew! Feels good to be back.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;p&gt;Thanks again for reading! General Assembly’s (free) Happy Hour is calling… Until next time!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 16 Oct 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/10/16/week5.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/10/16/week5.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 4 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;HI! I’m glad you decided to join us again. Last week, I spent many hours on my first project, a Hangman game using JavaScript and jQuery. It was a blast and I was ready to learn more.
+Luckily, that’s just what happened… let’s get started!&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-intro-to-ruby&quot;&gt;Day 1: Intro to Ruby&lt;/h1&gt;
+
+&lt;p&gt;Ruby is a familiar term to me - I knew it was a programming language and I’ve played around with a super fun &lt;a href=&quot;http://tryruby.org/levels/1/challenges/0&quot;&gt;Ruby Tutorial&lt;/a&gt; before so I was pumped to officially learn Ruby. What’s Ruby, you ask? Well, Ruby is an open-source server side programming language that focus on simplicity and productivity. The moment we started learning Ruby, I knew it was a language I wanted in my toolkit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ruby.jpg&quot; alt=&quot;ruby jokes&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Ruby jokes... ha ha ha&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intro-to-ruby-15-hours&quot;&gt;Intro to Ruby: 1.5 hours&lt;/h2&gt;
+&lt;p&gt;For our intro into Ruby, we chatted a lot about the history, the creator of Ruby, and we compared and contrasted Ruby and Javascript as programming languages. My favorite difference is how natural Ruby feels compare to Javascript.&lt;/p&gt;
+
+&lt;center&gt;&quot;Ruby is simple in appearance, but is very complex inside, just like our human body.&quot; — Yukihiro &quot;Matz&quot; Matsumoto&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quick note: If you’re curious, check out the &lt;a href=&quot;https://www.ruby-lang.org/en/about/&quot;&gt;history of Ruby and it’s creator, Matz.&lt;/a&gt; The really fascinating!&lt;/p&gt;
+
+&lt;p&gt;In class, we installed Ruby and PRY ( we use PRY to run ruby in a REPL, read, evaluate, print, loop) from here, we learned about data types, arrays, hashes and methods.&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-enums-25-hours&quot;&gt;Ruby Enums: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;After our lunch/break/open office time with the instructors (reminder: we have a break from 12:30 - 2:30pm everyday) we dived into Ruby Enumerables!&lt;/p&gt;
+
+&lt;p&gt;What is an enumerable?
+In Javascript, if we wanted to print a list of items inside an array, we would write a for or while loop. In Ruby, we can use enumeables! Enumerables are loops used specifically to do something to or with each item in an collection. We learned about the .each and .map enumerables.&lt;/p&gt;
+
+&lt;p&gt;We spent a lot of time doing class exercises using our new found Ruby skills.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 4
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-outcomes-and-ruby-lab&quot;&gt;Day 2: Outcomes and Ruby Lab&lt;/h1&gt;
+
+&lt;h2 id=&quot;outcomes-25-hours&quot;&gt;Outcomes: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;Every Tuesday we meet with the Outcomes team from 10am - 12:30pm. Outcomes is a time to discuss resume building, interview prep, defining our personal brand, Linkedin profile building, and peer reviewing of all things professional.&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-lab-25-hours&quot;&gt;Ruby Lab: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;We were given a lab to complete before 5pm. The lab relied heavily upon Ruby Enums and boy, was it challenging. This was one of the first labs that I felt unsure about. Usually, labs are all day but not today. The instructors helped out a lot and I finish the lab but I didn’t go home feeling too hot.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 2.5
+Optimistic level: Meh…&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-intro-to-object-oriented-programming-in-ruby&quot;&gt;Day 3: Intro to Object-Oriented Programming in Ruby&lt;/h1&gt;
+
+&lt;p&gt;Yesterday was rough on me so I spent majority of last night reviewing Ruby. It’s difficult to really like something that you barely understand… I feel like Ruby is a language that I can really geek out on but unfortunately I’m not there just yet. Today, we dived deeper into Ruby as a OOP language.&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-intro-to-oop-1-25-hours&quot;&gt;Ruby Intro to OOP 1: 2.5 hours&lt;/h2&gt;
+&lt;p&gt;Ruby is an object-oriented language. An object is a collection of related attributes (aka properties) and methods (aka behavior). Think of an object as a little machine: it has displays you can read and buttons you can push.&lt;/p&gt;
+
+&lt;p&gt;We created our first Object in class, using class and instances and walked through the relationship between .new() and def initialize().&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-intermediate-oop-in-ruby-25-hours&quot;&gt;Ruby Intermediate OOP in Ruby: 2.5 Hours&lt;/h2&gt;
+&lt;p&gt;More OOP practice - we spent about a hour building a Person Class using variables, instances and inheritance. Just like we get traits from our parents, we can use a feature called inheritance to create multiple classes (children) that share properties and methods from their parents.&lt;/p&gt;
+
+&lt;p&gt;We ended the day with review and a sneak peek into Ruby on Rails… Exciting stuff but still feeling a bit shaky on everything. Today was packed with tons of new vocab and there’s 3 homework assignments due tomorrow at 9am. Today quickly became a 12 hour day, as I stayed at school to study and finish homework assignments until 9pm.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 3
+Optimistic level: Meh… there was a lot of material today.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4-ruby-lab&quot;&gt;Day 4: Ruby Lab&lt;/h1&gt;
+
+&lt;p&gt;Can I start off by saying that lab days are my favorite days of the week! Why, you ask? A lot of different reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No class!! Finally a chance to catch up and solidify everything learned from the week&lt;/li&gt;
+  &lt;li&gt;You can work from anywhere. I usually stay on campus but sometimes I’ll take my lab over to the nearest coffee shop&lt;/li&gt;
+  &lt;li&gt;Instructors are available majority of the day to answer any questions. There’s plenty of opportunity for one on one assistance&lt;/li&gt;
+  &lt;li&gt;I learn by doing. The lab is the time to try things, fail at those things, make mistakes and learn as much as possible within the day&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+It’s been a rough week for me so this lab was much needed. We were given a choice to what lab to tackle (ranked by difficulty. All to be built in the command line):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Flash Cards&lt;/li&gt;
+  &lt;li&gt;Personal Finance&lt;/li&gt;
+  &lt;li&gt;Battleship&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Even though I had a rough week, I still wanted a challenge so I picked Personal Finance. Although, the subject was pretty boring, I successfully completed the project and felt great about my progress through a bumpy time.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 4
+Optimistic level: Much better!&lt;/p&gt;
+
+&lt;h1 id=&quot;day-5-data-modeling-sql-erd-postgres-and-active-directory&quot;&gt;Day 5: Data Modeling, SQL, ERD, Postgres and Active Directory&lt;/h1&gt;
+
+&lt;p&gt;Started off the day at 9am with Slips - remember those? Our digital flashcards! Stand up in front of the class and face your fears!&lt;/p&gt;
+
+&lt;h2 id=&quot;erd-and-databases-15-hours&quot;&gt;ERD and Databases: 1.5 Hours&lt;/h2&gt;
+&lt;p&gt;We reviewed and broke out into groups to draw out our very first Entity Relationship Diagram (ERD for short!) We learned how to identify and diagram one-to-one, one-to-many and many-to-many relationships between data entities and discussed data normalization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/tunr-erd.png&quot; alt=&quot;erd&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;a simple ERD for our tunr app&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;active-record-25-hours&quot;&gt;Active Record: 2.5 hours&lt;/h2&gt;
+&lt;p&gt;This class was massive. We went head first into ORMs, object relational mapping - A programming technique for converting data between incompatible type systems in object-oriented programming languages. Active Record is an ORM.&lt;/p&gt;
+
+&lt;p&gt;We created our Postgres database, setup our SQL Schema and Seeded into the Database. Super cool stuff! From here, we did a full walkthrough, following the instructor, on a full implementation of CRUD (create, read, update, delete functionality) application within Active Record. There were a lot of questions and a great discussion on rail’s ‘Convention over Configuration’ mindset.&lt;/p&gt;
+
+&lt;p&gt;Lastly, during the last 30 minutes of class, we reviewed everything from the last 2 hours and since it was Friday – we broke exactly at 5pm to partake in GA’s (free) happy hour that’s offered to students every Friday.&lt;/p&gt;
+
+&lt;p&gt;Whew! What a week. I hit some ups but mostly chilled at the bottom of The Emotional Cycle of Change, not a fun place to be.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/graph.jpeg&quot; alt=&quot;emotional cycle of change&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;The Emotional Cycle of Change&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+But I’m proud that I stuck with it and gave it my all. This week was tough but I’m much stronger than I was on Monday and even more determined.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! If you have questions or suggestions of things you would like to learn in regards to the course, please let me know in the comments! Or shoot me a note. I’d love to hear from you. Until next time.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 09 Oct 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/10/09/week4.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/10/09/week4.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 3 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;HI! I’m glad you decided to join us again. This week is Project Week! Let’s dive in.&lt;/p&gt;
+
+&lt;h1 id=&quot;project-01&quot;&gt;Project 01&lt;/h1&gt;
+&lt;p&gt;For this project, we were tasked to create a familiar game with HTML, CSS, and JS. We were to choose one of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tower of Hanoi&lt;/li&gt;
+  &lt;li&gt;Trivia (Self-scoring)&lt;/li&gt;
+  &lt;li&gt;Flash Cards&lt;/li&gt;
+  &lt;li&gt;Simon&lt;/li&gt;
+  &lt;li&gt;Hangman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+This was an opportunity to be creative and work through some tough programming challenges. I was very excited.&lt;/p&gt;
+
+&lt;p&gt;During Project Week, we do not have classes. Instead, we have all day Monday, Tuesday, and our projects were due on Wednesday at 2:30pm.&lt;/p&gt;
+
+&lt;h1 id=&quot;technical-requirements&quot;&gt;Technical Requirements&lt;/h1&gt;
+
+&lt;p&gt;The app must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Render in the browser&lt;/li&gt;
+  &lt;li&gt;Include separate HTML / CSS / JavaScript files&lt;/li&gt;
+  &lt;li&gt;Stick with KISS (Keep It Stupid Simple) and DRY (Don’t Repeat Yourself) principles&lt;/li&gt;
+  &lt;li&gt;Use Javascript or jQuery for DOM manipulation&lt;/li&gt;
+  &lt;li&gt;Deploy online, using Github Project pages.&lt;/li&gt;
+  &lt;li&gt;Use semantic markup for HTML and CSS (adhere to best practice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-did-hangman&quot;&gt;What I did: Hangman&lt;/h1&gt;
+&lt;p&gt;I wanted to code a game that two people could play, was interactive, fun, and provided a challenge.  So, obviously, I picked Hangman.&lt;/p&gt;
+
+&lt;p&gt;First, I wrote out pseudocode (a high-level step-by-step of what I want to code in human terms) for all of the logic and tasks I needed to complete in the game.&lt;/p&gt;
+
+&lt;p&gt;Next, I started out building the content using HTML. Once most of the elements were on the page, I moved over to my CSS file to selector my color scheme and layout.&lt;/p&gt;
+
+&lt;p&gt;Moving on to logic, within my Javascript document, I created my variables and started coding my functions.&lt;/p&gt;
+
+&lt;p&gt;The first function takes a look at the word typed into the input box and splits it into its own array. From there, the function will display the length of the word and dashes will appear on the page.&lt;/p&gt;
+
+&lt;p&gt;The next function runs when player two clicks on a letter in the alphabet box. It will check to see if the letter is in the secret word. Using an IF statement, if you guess right, the letter will appear on the dashes. If you guess wrong, a body part will appear.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-final-product&quot;&gt;The Final Product&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/hangman-main.png&quot; alt=&quot;hangman-main&quot; /&gt;
+&lt;img src=&quot;/img/hangman2.png&quot; alt=&quot;hangman&quot; /&gt;
+&lt;img src=&quot;/img/hangman.png&quot; alt=&quot;hangman2&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Fun fact: I drew the hangman gallows and body parts in an old school app, Mac Paintbrush&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/LWatsonlm/Two-Player-Hangman&quot;&gt;Check out my Github here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;project-presentations&quot;&gt;Project Presentations&lt;/h1&gt;
+
+&lt;p&gt;Presentations were science-fair style. 7-8 people were set up at a time, and other students walked around playing your game and asking questions like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What would you do differently?&lt;/li&gt;
+  &lt;li&gt;What are you most proud of?&lt;/li&gt;
+  &lt;li&gt;What did you learn?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The proudest moment for me was when my classmates truly enjoyed playing my game! There’s a special feeling you get when you see all hours of work come together.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20160921_154243.jpg&quot; alt=&quot;people playing my game&quot; /&gt;
+&lt;img src=&quot;/img/IMG_20160921_154849.jpg&quot; alt=&quot;people playing my game2&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Player One entering a secret word for Player Two to guess&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4--5-es6-object-oriented-js-classes-and-functional-programming&quot;&gt;Day 4 &amp;amp;&amp;amp; 5: ES6, Object Oriented JS Classes, and Functional Programming&lt;/h1&gt;
+
+&lt;p&gt;Project Week isn’t really a week at all. It’s more like Project Days. Anyway, for the last two days of the week, we went over Javascript’s ES6 update which is a significant update to the language, and the first update to the language since ES5 was standardized in 2009.&lt;/p&gt;
+
+&lt;p&gt;For ES6, we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain the history of ES and JS&lt;/li&gt;
+  &lt;li&gt;Compare/contrast features of ES5 and ES6&lt;/li&gt;
+  &lt;li&gt;Explain when to use var v.s. let v.s. const&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For OOJS, we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain the importance of OOJS&lt;/li&gt;
+  &lt;li&gt;Describe the role of ES2015 Classes and how they work&lt;/li&gt;
+  &lt;li&gt;Use the new keyword to create objects with shared properties&lt;/li&gt;
+  &lt;li&gt;Create a class that inherits from another using the extends and super keywords&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For Functional Programming, we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Identify the benefits of pure functions and avoiding side effects&lt;/li&gt;
+  &lt;li&gt;Define immutability and how it relates to pure functions&lt;/li&gt;
+  &lt;li&gt;Explain what recursion is and why we use it&lt;/li&gt;
+  &lt;li&gt;Explain the concepts of first class and higher order functions&lt;/li&gt;
+  &lt;li&gt;Use filter, map, reduce, sort&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;whew-what-a-week&quot;&gt;Whew! What a week!&lt;/h1&gt;
+
+&lt;p&gt;Still feeling the high from project week.  If you have questions or suggestions of things you would like to learn in regards to the course, please shoot me an email at &lt;a href=&quot;latoyamwatson@gmail.com&quot;&gt;latoyamwatson@gmail.com&lt;/a&gt;! I’d love to hear from you. Until next time!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/09/25/week3.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/09/25/week3.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 2 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;HI! I’m glad you decided to join us again. Super quick recap: I decided to start documenting my weekly experience with General Assembly in hopes I can help decide if a coding bootcamp is right for you.
+Let’s get into it!&lt;/p&gt;
+
+&lt;h1 id=&quot;checkpoint-01&quot;&gt;Checkpoint 01&lt;/h1&gt;
+&lt;p&gt;9am - 10am: Our first quiz. Every week, we have a mini quiz to review the previous week. You must turn in your work no later than 10am.&lt;/p&gt;
+
+&lt;p&gt;At General Assembly, there isn’t a grading system. You’re free to ask questions and the instructors will provide feedback. The checkpoint is mostly for you to get a feel of your understanding of the material.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1--2-javascript-and-dom-with-jquery&quot;&gt;Day 1 &amp;amp;&amp;amp; 2: Javascript and DOM with jQuery&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/tweet.png&quot; alt=&quot;tweet from lmwatsonn&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;How I felt the entire second week&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript-objects-and-functions-25-hours&quot;&gt;Javascript Objects and Functions: 2.5 hours:&lt;/h2&gt;
+
+&lt;p&gt;Javascript, our first programming language to tackle! Woohoo! We tackled topics such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If, Else If statements&lt;/li&gt;
+  &lt;li&gt;Loops&lt;/li&gt;
+  &lt;li&gt;Functions&lt;/li&gt;
+  &lt;li&gt;Methods&lt;/li&gt;
+  &lt;li&gt;Hoisting&lt;/li&gt;
+  &lt;li&gt;Objects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dom-with-jquery-25-hours&quot;&gt;DOM with jQuery: 2.5 hours:&lt;/h2&gt;
+
+&lt;p&gt;Next, we went over The Document Object Model (DOM). The DOM provides a structured representation of the [HTML] document. The nodes of every document are organized in a tree structure, called the DOM tree. It’s a bit abstract but here’s a visual representation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/DOM.png&quot; alt=&quot;the DOM&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;The DOM ... dun, dun dun!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to interact with The DOM, we used jQuery, a Javascript library. A game changer. jQuery is fast, it’s light, and it’s simple. It became instantly more fun to use than vanilla Javascript.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, we were assigned two homework assignments, remember homework is always due on Thursday no later than 9am.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-javascript-events-callbacks--lab&quot;&gt;Day 3: Javascript Events, Callbacks &amp;amp; Lab&lt;/h1&gt;
+
+&lt;p&gt;First thing in the morning - Review / Code Challenge. The day starts at 9am and the floor is open for students to ask questions on pretty much anything.&lt;/p&gt;
+
+&lt;p&gt;After the questions have been answered, we are given a mini code challenge to kick off the day. Code challenges do not get turned in.&lt;/p&gt;
+
+&lt;h2&gt;Javascript Events/Callbacks: 1.5 hours&lt;/h2&gt;
+&lt;p&gt;During this lesson, we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Selecting elements in jQuery vs. vanilla Javascript&lt;/li&gt;
+  &lt;li&gt;$(this) vs this&lt;/li&gt;
+  &lt;li&gt;Synchronous and Asynchronous Program Execution&lt;/li&gt;
+  &lt;li&gt;Lots and lots of in class practicing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;Scope and Context: 1.5 hours&lt;/h2&gt;
+&lt;p&gt;During this lesson, we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Context in regards to where functions are invoked&lt;/li&gt;
+  &lt;li&gt;Scope in regards to where a variable can be referenced/used
+    &lt;ul&gt;
+      &lt;li&gt;Global scope and local scope&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;More in class practicing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Having a grasp on Scope within your code is key to becoming a great developer who writes clean code. This lesson felt more conceptual than previous ones but all was well.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4--5-lab---building-an-atm&quot;&gt;Day 4 &amp;amp;&amp;amp; 5: Lab - Building an ATM&lt;/h1&gt;
+
+&lt;p&gt;The lab was assigned to us Thursday at 2:30pm and due on Friday at 2:30pm. For our first lab, we were given a lot of time to complete. However, upcoming labs will be assigned and due the same day.&lt;/p&gt;
+
+&lt;p&gt;The assignment: Building an application to track checking and savings account balances. Here are the requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Users can deposit money into one of the bank accounts&lt;/li&gt;
+  &lt;li&gt;Users can withdraw money from one of the bank accounts
+    &lt;ul&gt;
+      &lt;li&gt;Make sure the balance in an account can’t go negative. If a user tries to withdraw more money than exists in the account, ignore the transaction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The color of a bank account should reflect its balance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I had a lot of fun building the ATM. Feeling especially proud of my event listeners on the buttons and getting the deposit and withdraw functionality working. Today was a good day.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/atm.png&quot; alt=&quot;atm&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshot of my ATM Lab Submission&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;p&gt;Next week is PROJECT 01 WEEK! Get hype! Okay, until next time - chat soon!&lt;/p&gt;
+</description>
+				<pubDate>Tue, 20 Sep 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/09/20/week2.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/09/20/week2.html</guid>
+			</item>
+		
+			<item>
+				<title>Is Coding Bootcamp Right for You? Week 1 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;HI! I’m glad you decided to join us again. Super quick recap: I decided to start documenting my weekly experience with General Assembly in hopes I can help decide if a coding bootcamp is right for you. Let’s get into it!&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-an-average-day-look-like&quot;&gt;What’s an Average Day Look Like?&lt;/h1&gt;
+
+&lt;p&gt;What’s a regular day look like?:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Review or Quiz: 9 to 10am&lt;/li&gt;
+  &lt;li&gt;First Session: 10 to 12:30pm&lt;/li&gt;
+  &lt;li&gt;Lunch Break/Study Time: 12:30pm to 2:30pm
+– Optional: Instructors One on Ones 1:30 to 2:30pm&lt;/li&gt;
+  &lt;li&gt;Second Session: 2:30pm to 5pm&lt;/li&gt;
+  &lt;li&gt;Instructor’s Office Hours: 6pm to 8pm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+While I’m talking about the average day, I’d like to have the chance to mention a couple of perks in the GA’s DC office. Food and drinks. Everyone’s favorite perks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unlimited Coke and Ginger Ale&lt;/li&gt;
+  &lt;li&gt;Diet Coke&lt;/li&gt;
+  &lt;li&gt;Capri Suns (Not shown)&lt;/li&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Peanut Butter and Jelly Sandwiches (Strawberry AND Grape!!!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/IMG_20160912_094949.jpg&quot; alt=&quot;soda&quot; /&gt;
+ ​The fridge gets restocked three times a day. This needs restocking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20160912_095101.jpg&quot; alt=&quot;p&amp;amp;j&quot; /&gt;
+Yes, please! Unlimited peanut butter &amp;amp;&amp;amp; jelly!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20160912_095233.jpg&quot; alt=&quot;coffee&quot; /&gt;
+Coffeeeee.&lt;/p&gt;
+
+&lt;p&gt;Project Week: We haven’t had a project week just yet - stay tuned!&lt;/p&gt;
+
+&lt;h1 id=&quot;the-first-week-at-general-assembly&quot;&gt;The First Week at General Assembly&lt;/h1&gt;
+
+&lt;h1 id=&quot;day-1-ice-breakers-orientation--introduction-to-cli-the-command-line&quot;&gt;Day 1: Ice Breakers, Orientation &amp;amp; Introduction to CLI (The Command Line)&lt;/h1&gt;
+
+&lt;p&gt;Ah. Day one was just like any other day one of the first day of school. Inspirational quotes (“Don’t compare yourself to others in the class. Only compete with yourself“), getting to know your classmates and forgetting their names and everyone’s favorite: Ice Breakers. Our ice breaker was to sketch our table partner. Also, to draw three things he/she likes and dislikes.&lt;/p&gt;
+
+&lt;p&gt;Here’s the sketch my partner drew of me:
+&lt;img src=&quot;/img/image1.JPG&quot; alt=&quot;sketch of me&quot; /&gt;
+Not bad, actually!&lt;/p&gt;
+
+&lt;p&gt;Next up, class on an introduction to CLI aka The Command Line aka Terminal. I have tons of experience with the Command Line so this was a pretty easy lesson for me.&lt;/p&gt;
+
+&lt;p&gt;We reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Command Syntax (Flags and Arguments)&lt;/li&gt;
+  &lt;li&gt;Relative vs. Absolute Paths&lt;/li&gt;
+  &lt;li&gt;Common Commands&lt;/li&gt;
+  &lt;li&gt;Unsafe Commands&lt;/li&gt;
+  &lt;li&gt;Homework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Our instructors use and highly recommend &lt;a href=&quot;https://www.iterm2.com/&quot;&gt;iTerm2&lt;/a&gt; as a terminal replacement. We’re also using Atom as our text editor - which has quickly become my favorite editor!&lt;/p&gt;
+
+&lt;p&gt;For the last part of the day, the Outcomes team, a team of two who provides career advice, access to job readiness training, connections to employers, and opportunities to hone new skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20160906_155156.jpg&quot; alt=&quot;outcomes&quot; /&gt;
+“We’re anyting but traditional” Yeah, no kidding!&lt;/p&gt;
+
+&lt;p&gt;Homework was assigned at the end of the day. Homework is assigned everyday but it’s not due until 9am every Thursday. I plan on doing homework everyday, instead of waiting until Wednesday to do everything. A bunch of us stayed to complete the homework, I left around 7pm and head home and prepare for the next day.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-git-1--css-1&quot;&gt;Day 2: Git 1 &amp;amp; CSS 1&lt;/h1&gt;
+
+&lt;p&gt;Alright! Day two was our first official full day of lessons. I don’t think I mentioned this before, but class starts exactly at 9am everyday (we only can be late 5 times during the program, and yes, 9:01am is late).&lt;/p&gt;
+
+&lt;h2 id=&quot;git-1-15-hours&quot;&gt;Git 1: 1.5 hours&lt;/h2&gt;
+&lt;p&gt;Git is a way to keep track of version control. You use git in the command line, where Github.com is a online project hosting site that uses git. Github also allows you invite collaborators and track issues on a project.&lt;/p&gt;
+
+&lt;p&gt;For today, we focused git commands and using git to commit our projects locally.&lt;/p&gt;
+
+&lt;p&gt;We reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Git vs Github&lt;/li&gt;
+  &lt;li&gt;Anatomy of a Repo: Commits and Repositories&lt;/li&gt;
+  &lt;li&gt;Local and Remote&lt;/li&gt;
+  &lt;li&gt;Forking &amp;amp; Pull Requests&lt;/li&gt;
+  &lt;li&gt;One in class exercise&lt;/li&gt;
+  &lt;li&gt;Homework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;css1-25-hours&quot;&gt;CSS1: 2.5 hours&lt;/h2&gt;
+&lt;p&gt;Cascading Style Sheets (CSS) are what make web pages look like more than just words on a page. CSS is the way you style your HTML, it’s how you make things pretty. CSS is a lot of fun but it can also be stressful. I like to think of CSS like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/CSS.gif&quot; alt=&quot;css in a nutshell&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No matter how you look at it, a working knowledge of CSS is essential to web development. Luckily for me, I have experience in CSS and felt very comfortable during the lesson.&lt;/p&gt;
+
+&lt;p&gt;We reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is CSS?&lt;/li&gt;
+  &lt;li&gt;The CSS Validator&lt;/li&gt;
+  &lt;li&gt;Selectors and Units&lt;/li&gt;
+  &lt;li&gt;Two in class exercises&lt;/li&gt;
+  &lt;li&gt;Homework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+This was the day before our three homework assignments were due so many of us stayed until 8pm to finish everything and submit.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-git-2--css-2&quot;&gt;Day 3: Git 2 &amp;amp; CSS 2&lt;/h1&gt;
+
+&lt;p&gt;A lot of the same happened here as yesterday.&lt;/p&gt;
+
+&lt;p&gt;Git 2 we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Git Branching&lt;/li&gt;
+  &lt;li&gt;Git Merging&lt;/li&gt;
+  &lt;li&gt;Overview of a GitHub Workflow&lt;/li&gt;
+  &lt;li&gt;Merge Conflicts&lt;/li&gt;
+  &lt;li&gt;Two Exercises&lt;/li&gt;
+  &lt;li&gt;Homework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+CSS 2 we reviewed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using Flexbox instead of Floats
+    &lt;ul&gt;
+      &lt;li&gt;flex-direction, justify-content, align-items&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Holy Grail Layout&lt;/li&gt;
+  &lt;li&gt;Two Exercises&lt;/li&gt;
+  &lt;li&gt;Homework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4-slips--lab-portfolio-pages&quot;&gt;Day 4: Slips &amp;amp; Lab: Portfolio Pages&lt;/h1&gt;
+
+&lt;p&gt;Slips! Think of Slips as a digital flashcard that you have to answer in front of class. Yes, you have to stand up and get in front of class and answer the question on the flashcard. These flashcards are randomly chosen so there’s no great way to study before you get called.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/alipa.png&quot; alt=&quot;slips&quot; /&gt;
+An example of a slip&lt;/p&gt;
+
+&lt;p&gt;The good thing, this happens every Friday morning and you only go once. The bad thing, this happens every Friday morning and you only go once.&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-portfolio-pages-10am---430pm&quot;&gt;Lab: Portfolio Pages: 10am - 4:30pm&lt;/h1&gt;
+
+&lt;p&gt;We had the chance to sit down and mash out some code. I loved this! Don’t get me wrong, I loved the sessions during the day, but where I really excel is when I’m given compete freedom to use my time and creativity. That’s why I loved having such a long day to lab it out!&lt;/p&gt;
+
+&lt;p&gt;Okay, so what was the lab? Well, it was to start coding our portfolio that will be used for recruiters in the near future.&lt;/p&gt;
+
+&lt;p&gt;Some of the requirements of this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Semantics and style should be separated appropriately: CSS should be separate from HTML.&lt;/li&gt;
+  &lt;li&gt;HTML should pass the W3 HTML validator&lt;/li&gt;
+  &lt;li&gt;CSS should pass the W3 CSS validator&lt;/li&gt;
+  &lt;li&gt;Javascript isn’t required, but there’s bonus points for giving it a shot!&lt;/li&gt;
+  &lt;li&gt;Your page must be deployed to Github pages. This is a free hosting service provided by Github. You should name your repository your-username.github.io. The result is that your page will be publicly available at http://your-username.github.io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was a lot of fun. I had a great time starting my portfolio. I have a lot of ideas for functionality but it’s been a long week. I think this is a good place to stop.&lt;/p&gt;
+
+&lt;p&gt;Confidence level (1-5): 5
+Optimistic level: High&lt;/p&gt;
+
+&lt;h1 id=&quot;whew-that-was-a-lot&quot;&gt;Whew! That was a lot.&lt;/h1&gt;
+
+&lt;p&gt;It has been an action packed first week. I know there’s a lot here but I hope something here caught your interest! Okay, until next time - chat soon!&lt;/p&gt;
+</description>
+				<pubDate>Tue, 13 Sep 2016 00:00:00 -0400</pubDate>
+				<link>/bootcamp/2016/09/13/week1.html</link>
+				<guid isPermaLink="true">/bootcamp/2016/09/13/week1.html</guid>
 			</item>
 		
 			<item>
 				<title>Is Coding Bootcamp Right For You? Life During Coding Bootcamp</title>
-				<description>&lt;p&gt;&lt;img src=&quot;~/img/latoyawatson.jpg&quot; alt=&quot;1&quot; /&gt;
-&lt;img src=&quot;~/media/test.png&quot; alt=&quot;2&quot; /&gt;
-&lt;img src=&quot;~/Users/latoyawatson/wdi/Portfolio/bootcamp/img/atm.png&quot; alt=&quot;3&quot; /&gt;
-&lt;img scr=&quot;~/img/latoyawatson.jpg&quot; alt=&quot;hi&quot; /&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;img src=&quot;/img/latoyawatson.jpg&quot; alt=&quot;me&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Last week I embarked on a new journey to become a web developer through a full-time coding bootcamp. It took me a long time to decide (like a year!) if a coding bootcamp was right for me. I had a hard time finding resources from first-hand experiences from students, and there’s definitely not a lot of week-to-week recaps of what exactly goes on at these camps.&lt;/p&gt;
 
