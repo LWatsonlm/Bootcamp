@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-76296508-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+
+	<meta charset="utf-8">
+	<title>Is Coding Bootcamp Right for You? Week 8 in The Life of a Coding Bootcamper</title>
+	
+	<meta name="description" content="Last week was Project 2 week. We're half way there, with only two more projects to go. Week 8 is the week I really started to feel the burn... there's a lot of new technologies thrown at us and my brain is exploding with taking it all in.
+This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. Full warning: This is a beefy week so this post is pretty long. Let's get started!">
+	
+	<meta name="author" content="Latoya M. Watson">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/LWatsonlm">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.knowyourapps.com/wp-content/uploads/2012/08/ICON_TeToTe.png" id="navbar-brand" class="img-circle" />
+				Tech Eats: Stories of Tech and Food
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs" style="">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/img/latoyawatson.jpg" class="img-circle" id="latoya">
+	</a>
+	<h3 class="title">
+        <a href="/">Tech Eats: Stories of Tech and Food</a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Blogging about Tech and Food Stuff from Washington, D.C.
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/LWatsonlm">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/watsonlm">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>Is Coding Bootcamp Right for You? Week 8 in The Life of a Coding Bootcamper </h1>
+</div>
+
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   November
+	   6th,
+	   
+	   2016
+     - 
+
+  11 mins
+
+ Read.
+	 </span>
+	  <div class="article_body">
+	  <p>Last week was Project 2 week. We’re half way there, with only two more projects to go. Week 8 is the week I really started to feel the burn… there’s a lot of new technologies thrown at us and my brain is exploding with taking it all in.</p>
+
+<p>This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. Full warning: This is a beefy week so this post is pretty long. Let’s get started!</p>
+
+<h1 id="day-1-ui-router--apis-and-ajax">Day 1: UI Router &amp;&amp; APIs and AJAX</h1>
+
+<p>For today, we dive deeper into technologies that I have zero prior experience on… exciting, but frightening all in one. Did it just get hot in here?</p>
+
+<h2 id="ui-router-25-hours">UI Router: 2.5 hours: </h2>
+
+<p>Learning Objectives on UI Router:</p>
+
+<ul>
+  <li>Explain what dependency injection is and what problem it solves</li>
+  <li>Explain the purpose of templates in Angular</li>
+  <li>Create separate views and routes for each CRUD action</li>
+  <li>Use the ui-view directive to load angular templates</li>
+  <li>Use $stateProvider and $state to access query parameters and update the URL</li>
+  <li>Define multiple controllers in a single module</li>
+</ul>
+
+<p>So far, we’ve been using Angular to create some powerful front-end SPAs (Single Page Applications).</p>
+
+<p>Single Page Applications are Web apps that load a single HTML page and dynamically update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create fluid and responsive web apps, without constant page reloads.</p>
+
+<p>The beautiful of this is it completely cuts out the reload (that quick white blank screen you see when you click on links) and renders a <strong>state</strong> instead of reloading. A <strong>state</strong> in Angular is basically a route: it’s an umbrella term for a URL, the view associated with it, and any controllers used in that view.</p>
+
+<p>In class, we walk through injecting dependencies and configuring the <code class="highlighter-rouge">ui.router</code> for an Angular app, called Stoplight.</p>
+
+<p>First, we inject the <code class="highlighter-rouge">ui.router</code> dependency in our Angular app:
+<code class="highlighter-rouge">js
+angular.module("stoplightApp", [ui.router])
+</code>
+From here, we added routes to our config file, defined a state, using <code class="highlighter-rouge">$stateProvider</code> created views that are attached to our controller (one view for one controller) using <code class="highlighter-rouge">templateUrl</code></p>
+
+<p>And finally, displaying it on the browser using <code class="highlighter-rouge">data-ui-view</code> to render Angular inside HTML.</p>
+
+<p>Whew. It’s lunch time and I’m definitely reviewing all of this during our two-hour lunch break.</p>
+
+<h2 id="apis-and-ajax-25-hours">APIs and AJAX: 2.5 hours:</h2>
+
+<p>Back into the beast of unknown territory! Horray! Honestly, I’m feeling the heat but staying optimistic.</p>
+
+<p>Learning Objectives of APIs and AJAX:</p>
+
+<ul>
+  <li>Explain the difference between synchronous and asynchronous program execution</li>
+  <li>Explain why synchronous program execution is not conducive to the front-end.</li>
+  <li>Use jQuery $.ajax() method to make asynchronous GET requests for data.</li>
+  <li>Use jQuery’s ‘promise-like’ methods to handle AJAX responses asynchronously.</li>
+  <li>Render new HTML content using data loaded from an Ajax request.</li>
+  <li>Perform POST, PUT, and DELETE requests to an API to modify data.</li>
+</ul>
+
+<p>Our first task in class was to open <a href="https://www.google.com/maps">Google Maps</a> and answer the question: what’s happening asynchronously? Spoiler alert: The answer is everything.</p>
+
+<p>From here, we discussed APIs, Application Program Interfaces, which are commonly known as web data that can be accessed and used for raw data.</p>
+
+<p>API data comes in two different formats: <code class="highlighter-rouge">json</code> (Javascript Object Notation) and <code class="highlighter-rouge">XML</code> (eXensive Markup Language). For this class (and hopefully for life) we focused on JSON.</p>
+
+<p>JSON looks a little something like this:</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="p">{</span>
+  <span class="s2">"users"</span><span class="err">:</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Bob"</span><span class="p">,</span> <span class="s2">"id"</span><span class="p">:</span> <span class="mi">23</span><span class="p">},</span>
+    <span class="p">{</span><span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Tim"</span><span class="p">,</span> <span class="s2">"id"</span><span class="p">:</span> <span class="mi">72</span><span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>and XML looks like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;users&gt;
+  &lt;user id="23"&gt;
+    &lt;name&gt;&lt;![CDATA[Bob]]&gt;&lt;/name&gt;
+  &lt;/user&gt;
+  &lt;user id="72"&gt;
+    &lt;name&gt;&lt;![CDATA[Tim]]&gt;&lt;/name&gt;
+  &lt;/user&gt;
+&lt;/users&gt;
+</code></pre>
+</div>
+
+<p>Yeah, my eyes definitely prefer JSON.</p>
+
+<p>Next in class, we got to play with a couple of different APIs! First, we made GET requests to <a href="https://api.giphy.com/">Giphy’s API</a> and found some cool cat gifs.</p>
+
+<p>Using $.ajax, a jQuery method:</p>
+
+<p>We all requested an API key from <a href="https://www.wunderground.com/weather/api/d/docs">Weather Underground API</a> and used <code class="highlighter-rouge">$.ajax</code> (Asynchronous Javascript and XML) to make GET requests to bring in data.</p>
+
+<p>Here’s an example of what I mean:</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="s2">"button"</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s2">"click"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// Make sure to add your API key to the URL!</span>
+  <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">"https://api.wunderground.com/api/your_key/geolookup/conditions/q/va/midlothian.json"</span>
+  <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+    <span class="na">url</span><span class="p">:</span> <span class="nx">url</span><span class="p">,</span>
+    <span class="na">type</span><span class="p">:</span> <span class="s2">"get"</span><span class="p">,</span>
+    <span class="na">dataType</span><span class="p">:</span> <span class="s2">"json"</span>
+    <span class="c1">// $.ajax takes an object as an argument with at least three key-value pairs...</span>
+    <span class="c1">// (1) The URL endpoint for the JSON object.</span>
+    <span class="c1">// (2) Type of HTTP request.</span>
+    <span class="c1">// (3) Datatype. Usually JSON.</span>
+  <span class="p">}).</span><span class="nx">done</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Ajax request success!"</span><span class="p">)</span>
+  <span class="p">}).</span><span class="nx">fail</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Ajax request fails!"</span><span class="p">)</span>
+  <span class="p">}).</span><span class="nx">always</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"This always happens regardless of successful ajax request or not."</span><span class="p">)</span>
+  <span class="p">})</span>
+<span class="p">})</span>
+</code></pre>
+</div>
+
+<p>With APIs, you can do much more than GET requests… we can create POST, PUT, DELETE, etc requests as well. However, I don’t think Weather API would allow us to modify their data, which means, we’ll have to build our own API instead… And that’s exactly what we did next in class.</p>
+
+<p>For the last hour of class, we updated our trusty <code class="highlighter-rouge">Tunr</code> app using AJAX and CRUD to create the ultimate <code class="highlighter-rouge">Tunr Rails API</code> app featuring every HTTP request!</p>
+
+<p>The biggest takeaway from today’s session: APIs are freaking cool AND <strong>It is very important</strong> that developers do not push API keys to a public Github repo. There’s some pretty scary <a href="https://wptavern.com/ryan-hellyers-aws-nightmare-leaked-access-keys-result-in-a-6000-bill-overnight">horror stories out there…</a></p>
+
+<h1 id="day-2-outcomes--angular-resources">Day 2: Outcomes &amp;&amp; Angular Resources</h1>
+
+<h2 id="outcomes-25-hours">Outcomes: 2.5 Hours:</h2>
+<p>Today in Outcomes, we focused on building our online General Assembly Alumni Profile in class. Online Alumni Profiles are the best way for GA’s employment partners to reach students directly regarding new opportunities. This session was dedicated to building our Alumni Profile utilizing our Brand Statement, Resume and Job Search Strategy.</p>
+
+<p>Feel free to check out my <a href="https://profiles.generalassemb.ly/lmwatson">General Assembly Profile</a> Shoot me and email. I love emails! And I really love emails with potential job opportunities inside of them.</p>
+
+<h2 id="angular-resources-25-hours">Angular Resources: 2.5 Hours:</h2>
+
+<p>Another big class with so many new things to learn. This lesson focused on a couple of Angular’s Resources: Factories, Services and ngResource.</p>
+
+<p>Learning Objectives of Angular Resources:</p>
+
+<ul>
+  <li>Explain the purpose of Factories in Angular.</li>
+  <li>Use ngResource to pull information from an API.</li>
+  <li>Use $stateParams to access query parameters and update the URL.</li>
+  <li>Create separate views and routes for each CRUD action.</li>
+</ul>
+
+<p>In the last couple of classes, we used hard coded data to act as our “backend”.  Those days are over and instead, we’ll be connecting to an external API using resources and providing an interface to models using factories.</p>
+
+<p>We start by cloning down a repo with a Rails API. Our front-end in-class application will make AJAX calls to that API. First, we convert the hardcoded data to read from an external API using a Factory.</p>
+
+<p>A Factory is an Angular Component that generates new instances of something.</p>
+
+<p>For this in class assignment, we were told not code along. Btw, I’m REALLY bad at not coding along… It feels unnatural to sit and watch when there’s coding to be done!</p>
+
+<p>We watched as our instructor walked through each step building a CRUD  (create, read, update, delete) application. Between each step, we were given 10-15 mins to complete the CRUD step locally. Going back and forth between watching and doing, we completed creating RESTful routes and using a Factory to query our API.</p>
+
+<p>Homework was assigned and I’m feeling overwhelmed on a Tuesday.</p>
+
+<h1 id="day-3-apis-api--firebase">Day 3: APIs API &amp;&amp; FireBase</h1>
+
+<p>I spent 4 extra hours at school yesterday due to wrapping my head around our homework assignment on Angular Resources, Factories, and AJAX calls. Feeling a bit tired today but excited because we’re building our own API and getting closer to Project 3!</p>
+
+<h2 id="apis-25-hours">APIs: 2.5 Hours:</h2>
+
+<p>So, we have used third-party APIs and we have used our instructor’s custom built API… now it’s time we learn how to create our OWN API from the ground up! This will serve up JSON and render HTML views.</p>
+
+<p>Learning Objectives of APIs:</p>
+
+<ul>
+  <li>Describe what an API is, and why we might use one.</li>
+  <li>Describe the purpose and syntax of respond_to</li>
+  <li>Make a Rails app that provides a JSON API.</li>
+</ul>
+
+<p>We start off the class with an API Exploration. Taking about 10 mins, we searched some popular APIs and discussed our opinions on them.</p>
+
+<p>Next, we make a couple of basic HTTP requests to an API, using <a href="https://www.getpostman.com/">Postman</a>.</p>
+
+<p><img src="/img/postman.png" alt="Postman" /></p>
+<center>A Closer Look at an API Request</center>
+
+<p>After poking around with that, we dive into the meat of the lesson, building a Rails API to serve JSON.</p>
+
+<div class="language-rb highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@post</span> <span class="o">=</span> <span class="no">Post</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:id</span><span class="p">])</span>
+
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">html</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">:show</span> <span class="p">}</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json: </span><span class="vi">@post</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre>
+</div>
+<p>We spend the rest of the morning rendering json and feeling super proud of our custom API. Lunch time.</p>
+
+<h2 id="firebaseangularfire-25-hours">FireBase/AngularFire: 2.5 Hours:</h2>
+
+<p>Up until this point, we’ve used Postgres and SQL to persist data. Today we explored an alternative: Firebase.</p>
+
+<p>What Is Firebase?</p>
+
+<p>Firebase is a PaaS, or “Platform as a Service.” That means it offers a number of cloud-based computing services, including the one that matters to us today: a realtime database. Not only can we access a Firebase DB programmatically using code, but we can also interact with data via a graphical interface in the browser.</p>
+
+<p>Unlike Postgres, Firebase is a NoSQL database. This means that information is not stored in tables and it does not make use of associations like <code class="highlighter-rouge">has_many</code> or <code class="highlighter-rouge">belongs_to</code>. Instead, information in a NoSQL database is stored in one big JSON tree.</p>
+
+<p>Here’s a screenshot of my database in Firebase:
+<img src="/img/firebase.png" alt="Firebase" /></p>
+<center>A Closer Look at an API Request</center>
+
+<p>One way to connect an Angular application to a Firebase DB is AngularFire.</p>
+
+<p>We spent the rest of class building the classic, TODO app, using Firebase DB to persist data.</p>
+
+<p>No new homework tonight but homework is due tomorrow at 9am so I stayed at school to complete my assignments.</p>
+
+<h1 id="day-4-lab">Day 4: Lab!!!</h1>
+
+<p>Homework is all turned in and now it’s time for a lab day.</p>
+
+<p>Oh, lab day. You always come at the right time. Feeling overwhelmed, lab day is such a blessing. It’s time to sit down, break some code, and bring the week all together.</p>
+
+<p>Today’s lab is pretty cool, too. We’re building a WDI Radio. This radio has Artist data, as well as their Songs, it should serve JSON and hosted with Firebase DB.</p>
+
+<p>This was a fun lab that really helped me understand the power of Firebase.</p>
+
+<p>We ended out the day with submitting up to 5 names of students that we would want to be in a group with. Honestly, I didn’t really like this format of picking groups… It just feels so exclusive. But I submitted my suggestions and (im)patiently waited for group announcements on Friday.</p>
+
+<h1 id="day-5-project-3---group-project">Day 5: PROJECT 3 - Group Project!</h1>
+
+<p>After, what felt like the longest week ever, Friday is here and so is Project 3… our first and only group project!</p>
+
+<p>Everyone in class has been very anxious to see who is in who’s group. And drumroll, please…………….  I was put into an AWESOME group of two other rockstar classmates. Yeah! This is going to be great.</p>
+
+<p>Whoaaa. That was a long week and a long read. Thanks for sticking with me until the end and make sure to check out next week to see how our group project turned out!</p>
+
+<p>Until Then!</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			
+				<li><a href="/categories.html#coding-bootcamp-ref">
+					coding-bootcamp <span>(9)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			
+				<li>
+					<a href="/tags.html#API-ref">
+					API <span>(1)</span>
+					,
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags.html#AJAX-ref">
+					AJAX <span>(1)</span>
+					,
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags.html#angular-ref">
+					angular <span>(2)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Is Coding Bootcamp Right for You? Week 8 in The Life of a Coding Bootcamper&via=lmwatsonn"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="/img/latoyawatson.jpg" class="img-rounded author-image" id="smaller-latoya" />
+        <h4 class="section-title author-name">Latoya M. Watson</h4>
+        <p class="author-bio">Blogging about Tech and Food Stuff from Washington, D.C.</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/coding-bootcamp/2016/10/30/week7.html" title="Is Coding Bootcamp Right for You? Week 7 in The Life of a Coding Bootcamper">&larr; Previous</a></li>
+		  
+		  
+			<li class="next disabled"><a>Next &rarr;</a>
+		  
+		</ul>
+
+		<hr>
+	</div>
+
+	<div class="col-sm-2 sidebar-2">
+
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'lwatsonlm-github-io-tech-eats';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2016 Latoya M. Watson with <a href="http://jekyllrb.com/">Jekyll</a>.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-76296508-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+

@@ -13,13 +13,22 @@ body{
 }
 
 #latoya {
-	height: 160px;
-	width: 170px;
+	height: 155px;
+	width: 160px;
 }
 
 #smaller-latoya {
 	height: 75px;
 	width: 75px;
+}
+
+#navbar-brand {
+	height: 50px;
+	width: 50px;
+}
+
+.article-layout p {
+	color: #D39E00;
 }
 
 .sidebar-header {

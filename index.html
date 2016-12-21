@@ -24,11 +24,10 @@ tagline:
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <div>
-  <p>Post Category: {{ post.categories }}</p>
-  <p>Tags: {{ post.tags | join: ', ' }}</p>
-  {{ post.description }}
-
+  <div class="article-layout">
+    Post Category: <p>{{ post.categories }}</p>
+    Tags: <p>{{ post.tags | join: ', ' }}</p>
+    {{ post.description }}
   </div>
 
 </article>
