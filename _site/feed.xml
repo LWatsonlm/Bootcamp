@@ -7,10 +7,196 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Is Coding Bootcamp Right for You? Week 9 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;Hey, hey, hey! This week was Project 3 week. On Friday morning, we found out who was in our group and some people weren’t too happy about their group assignments. Luckily, I was put into a group with two awesome classmates and we spent the entire morning setting group norms, figuring out our roles and responsibilities, and brainstorming ideas for our project!&lt;/p&gt;
+
+&lt;h1 id=&quot;the-project-requirements&quot;&gt;The Project Requirements&lt;/h1&gt;
+
+&lt;p&gt;Our instructors partnered us up for this project. This was meant to push us both technically and collaboratively. As developers, we will, almost certainly, be joining a development team during our careers. So, it’s important to learn how to work together.&lt;/p&gt;
+
+&lt;p&gt;We must work together to architect, design, and build an app with two major components:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;An API of your own design, built using Rails, which serves JSON.&lt;/li&gt;
+  &lt;li&gt;Front-end Angular code that updates the UI, and makes requests to the API using AJAX.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;our-first-team-meeting&quot;&gt;Our First Team Meeting&lt;/h1&gt;
+
+&lt;p&gt;We spent a lot of time discussing and debating on the project topic. All three of us had very strong opinions on what type of project we should do. For instance, I wanted to create an application focusing on Google Maps API that stored prices on different items around the D.C. area. Other ideas included using an API from IBM that could do voice recognition (a bit much for a 4-day project!) and a networking application using Linkedin API.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/project-brainstorm.jpg&quot; alt=&quot;Brainstorming&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;A whiteboard of our brainstorming&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After creating ERDs, user stories and sketches of our top three projects, we finally decided to build a check-in application for networking events using LinkedIn’s API for user oAuth. We couldn’t decide on a name for it, so we did what any other project team would do and gave it a code name: &lt;strong&gt;Tatiana.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161028_120352.jpg&quot; alt=&quot;Teammates&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/img/IMG_20161028_120339.jpg&quot; alt=&quot;Teammates&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;My group and me planning out Tatiana&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Alright! So we have our project idea. Next, we need to figure out our roles and responsibilities, our Git flowchart, hash out the steps to success, and what’s going to get done, if anything, this weekend (remember we started the project on Friday this time).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161028_142945.jpg&quot; alt=&quot;git flowchart&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Our Git flowchart&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161028_163745.jpg&quot; alt=&quot;thinking through how to make this app work&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Thinking through how to make this actually work!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161028_142422.jpg&quot; alt=&quot;steps to success&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;High level steps to success of our app!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161028_165156.jpg&quot; alt=&quot;weekend plans&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Weekend plans for each team member!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;monday---thursday&quot;&gt;Monday - Thursday&lt;/h1&gt;
+
+&lt;p&gt;Work, work, work, work, work! I’d say on an average we spent 12-14 hours a day working on this project… averaging ~50 hours of work collectively to hit our goal.&lt;/p&gt;
+
+&lt;p&gt;In the end, we built a neat little application called &lt;strong&gt;Connect+&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;connect&quot;&gt;Connect+&lt;/h1&gt;
+
+&lt;p&gt;Connect+ was built to be a Networking Event Attendance Management system where event owners can create events using a secret code, share it with attendees and attendees can check-in, view other attendees at the event and easily connect with them on Linkedin - all in one place.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/connect-homepage.png&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Homepage for Connect+&lt;/center&gt;
+
+&lt;h2 id=&quot;why-and-what-it-really-is&quot;&gt;Why and What It Really Is&lt;/h2&gt;
+
+&lt;p&gt;Have you ever been to a networking event where you met tons of people, only to forget to connect on LinkedIn or forget to grab business cards or forget their names!? With &lt;strong&gt;Connect+&lt;/strong&gt; you won’t need to worry about forgetting who was at the event! Simply log in with your LinkedIn credentials and enter the secret word given by the host, and you’ll see all the attendees at the same event!&lt;/p&gt;
+
+&lt;p&gt;Haha, so that was our project pitch for why our app is so cool! What do ya think?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/connect-api-call.png&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Check how cool, our app pulling in profile data from LinkedIn's API!!!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/connect-create-new-event.png&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshot of event form. This is how a host creates an event and secret password&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Connect-Review-Event.png&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshot of event review, host creates an event, gets a secret code and shares code with attendees!&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Connect-screenshot.png&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Screenshot of the current attendees of the selected event. You can click on their picture and quickly connect on LinkedIn&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re very happy how everything turned out, although, the CSS could use a lot of work (we promised that we would reconnect one weekend and style it), the functionality of the app works perfectly. We are definitely proud of this project and really feel like it’s super valuable!! How cool would it be if we got LinkedIn to adopt it!&lt;/p&gt;
+
+&lt;h2 id=&quot;technologies-used&quot;&gt;Technologies Used&lt;/h2&gt;
+&lt;p&gt;For the back-end, Connect+ uses a PostgreSQL database. We accessed its Ruby on Rails API through Active Record, to return JSON to the front-end. The front-end is handled by AngularJS. Connect+’s API is hosted on Heroku, and the front-end is on FireBase. The application accesses the LinkedIn API through OAuth 2.0.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Connect+ requires two repositories. The back-end repo can be found at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/LWatsonlm/Connect-Backend&quot;&gt;Back-End Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For the back-end, install dependencies using &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And the front-end repo can be accessible at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/LWatsonlm/Connect-Frontend&quot;&gt;Front-End Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are looking to install the front-end, please install dependencies using &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;view-it-live&quot;&gt;View it live!&lt;/h2&gt;
+
+&lt;p&gt;To view Connect+ live, please visit this link:
+&lt;a href=&quot;https://connect-f6bd3.firebaseapp.com/&quot;&gt;View it Live!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-presentation&quot;&gt;The Presentation&lt;/h2&gt;
+
+&lt;p&gt;Each member of the group had to participate in the presentation.&lt;/p&gt;
+
+&lt;p&gt;The presentation should be 10-minutes, with 5 minutes allotted for questions.&lt;/p&gt;
+
+&lt;h2 id=&quot;whew&quot;&gt;Whew!!!&lt;/h2&gt;
+
+&lt;p&gt;What a week!! But it’s only Thursday so let’s get into Friday…&lt;/p&gt;
+
+&lt;h1 id=&quot;day-5-slips--intro-to-express--mongo--mongoose-intro&quot;&gt;Day 5: Slips &amp;amp;&amp;amp; Intro to Express &amp;amp;&amp;amp; Mongo / Mongoose Intro&lt;/h1&gt;
+
+&lt;h2 id=&quot;slips-1-hour&quot;&gt;Slips: 1 Hour&lt;/h2&gt;
+
+&lt;p&gt;You remember this, right? Digital flashcards in front of our class. We all take turns standing up in front of the class and answer a random question. One by one… so. much. fun. (can you sense the sarcasm?)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/alipa.png&quot; alt=&quot;Slips&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Slips!&lt;/center&gt;
+
+&lt;h2 id=&quot;intro-to-express-25-hours&quot;&gt;Intro to Express: 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Learning Objectives for Express:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List common reasons Javascript is used for server applications&lt;/li&gt;
+  &lt;li&gt;Compare and contrast Javascript in the browser vs JS on the server&lt;/li&gt;
+  &lt;li&gt;Compare and contrast express.js to Rails / Sinatra.&lt;/li&gt;
+  &lt;li&gt;Use npm to manage project dependencies&lt;/li&gt;
+  &lt;li&gt;Use module.exports and require to organize code&lt;/li&gt;
+  &lt;li&gt;Use Handlebars templates to simplify rendering in express&lt;/li&gt;
+  &lt;li&gt;Use and configure middleware, e.g. body-parser to handle form submissions&lt;/li&gt;
+  &lt;li&gt;Link to static assets in an Express application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is SO much stuff. We’ve pretty much covered the entire stack. Everything we covered from here on out is an extension of what we’ve already learned or a different language than we’re used to. Today we talked about &lt;strong&gt;expressJS&lt;/strong&gt; the “e” in the MEAN stack. Which incidentally is super buzz-wordy right now. Express is a framework built on top of node.&lt;/p&gt;
+
+&lt;p&gt;So, we &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install --save express&lt;/code&gt; and spent the class building our views with Handlebars, created forms with body-parser and completed our first Express app! Homework was assigned and campus lunch was served.&lt;/p&gt;
+
+&lt;h2 id=&quot;campus-lunch&quot;&gt;Campus Lunch&lt;/h2&gt;
+
+&lt;p&gt;Every other Friday, General Assembly serves campus lunch. It’s open to any and every student and instructor. It’s literally the best day ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161118_122835.jpg&quot; alt=&quot;CAMPUS LUNCH&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;FREEEEE LUNCH&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intro-to-mongoose-25-hours&quot;&gt;Intro to Mongoose: 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Learning Objectives for Mongoose:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Differentiate between NoSQL and SQL databases&lt;/li&gt;
+  &lt;li&gt;Explain what Mongoose is&lt;/li&gt;
+  &lt;li&gt;Describe the role of Mongoose schema and models&lt;/li&gt;
+  &lt;li&gt;Use Mongoose to perform CRUD functionality&lt;/li&gt;
+  &lt;li&gt;List and describe common Mongoose queries&lt;/li&gt;
+  &lt;li&gt;Persist data using Mongoose embedded documents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In previous units, we used ActiveRecord to interact with and perform CRUD actions on a SQL database through a Ruby back-end. Today, we did the equivalent with a tool called Mongoose on a NoSQL database using a Node back-end.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;MongoDB&lt;/em&gt;&lt;/strong&gt; is a NoSQL database that stores information as JSON (technically, it’s BJSON – “binary JSON.”)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mongoose&lt;/em&gt;&lt;/strong&gt; is an ODM (Object Data Mapping), that allows us to use our data in our application. It also gives additional helpers, functions and queries to easily perform CRUD actions.&lt;/p&gt;
+
+&lt;p&gt;Mongoose provides similar functionality to interact with MongoDB and Express as Active Record did with PostgreSQL and Rails.&lt;/p&gt;
+
+&lt;p&gt;We created Mongoose Schemas, Models, reviewed and practiced Callback Functions, Promises, Created Seed Data, Mongoose Queries and implement CRUD. It has been a long week and this lesson was definitely a tough one.&lt;/p&gt;
+
+&lt;p&gt;I’m beyond exhausted and ready to call it a day. On to happy hour!&lt;/p&gt;
+
+&lt;p&gt;Thanks again and see you next week!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 13 Nov 2016 00:00:00 -0500</pubDate>
+				<link>/coding-bootcamp/2016/11/13/week9.html</link>
+				<guid isPermaLink="true">/coding-bootcamp/2016/11/13/week9.html</guid>
+			</item>
+		
+			<item>
 				<title>Is Coding Bootcamp Right for You? Week 8 in The Life of a Coding Bootcamper</title>
 				<description>&lt;p&gt;Last week was Project 2 week. We’re half way there, with only two more projects to go. Week 8 is the week I really started to feel the burn… there’s a lot of new technologies thrown at us and my brain is exploding with taking it all in.&lt;/p&gt;
 
-&lt;p&gt;This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. Full warning: This is a beefy week so this post is pretty long. Let’s get started!&lt;/p&gt;
+&lt;p&gt;This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. &lt;strong&gt;Full warning:&lt;/strong&gt; This is a beefy week so this post is pretty long. Let’s get started!&lt;/p&gt;
 
 &lt;h1 id=&quot;day-1-ui-router--apis-and-ajax&quot;&gt;Day 1: UI Router &amp;amp;&amp;amp; APIs and AJAX&lt;/h1&gt;
 
