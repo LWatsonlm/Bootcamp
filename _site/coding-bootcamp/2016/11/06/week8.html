@@ -187,7 +187,7 @@ This week, we talk APIs, AJAX, Building our own API, Firebase and the introducti
 
 <p>This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. <strong>Full warning:</strong> This is a beefy week so this post is pretty long. Let’s get started!</p>
 
-<h1 id="day-1-ui-router--apis-and-ajax">Day 1: UI Router &amp;&amp; APIs and AJAX</h1>
+<h1 id="day-1-ui-router--apis--ajax">Day 1: UI Router &amp;&amp; APIs &amp;&amp; AJAX</h1>
 
 <p>For today, we dive deeper into technologies that I have zero prior experience on… exciting, but frightening all in one. Did it just get hot in here?</p>
 
@@ -205,6 +205,8 @@ This week, we talk APIs, AJAX, Building our own API, Firebase and the introducti
 </ul>
 
 <p>So far, we’ve been using Angular to create some powerful front-end SPAs (Single Page Applications).</p>
+
+<p><img src="/img/AngularJS.png" alt="AngularJS" /></p>
 
 <p>Single Page Applications are Web apps that load a single HTML page and dynamically update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create fluid and responsive web apps, without constant page reloads.</p>
 
@@ -278,7 +280,7 @@ From here, we added routes to our config file, defined a state, using <code clas
 <p>Here’s an example of what I mean:</p>
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="s2">"button"</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s2">"click"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="c1">// Make sure to add your API key to the URL!</span>
+  <span class="c1">// Make sure to add the API key to the URL!</span>
   <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">"https://api.wunderground.com/api/your_key/geolookup/conditions/q/va/midlothian.json"</span>
   <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
     <span class="na">url</span><span class="p">:</span> <span class="nx">url</span><span class="p">,</span>

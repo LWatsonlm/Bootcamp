@@ -28,6 +28,11 @@ body{
 	width: 50px;
 }
 
+#header-picture {
+	height: 75%;
+	width: 75%;
+}
+
 .article-layout p {
 	color: #D39E00;
 }

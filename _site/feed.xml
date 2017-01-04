@@ -185,6 +185,9 @@
 
 &lt;p&gt;I’m beyond exhausted and ready to call it a day. On to happy hour!&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/img/IMG_20161102_220319.jpg&quot; alt=&quot;connect+ screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;My team after a long, hard week!&lt;/center&gt;
+
 &lt;p&gt;Thanks again and see you next week!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 13 Nov 2016 00:00:00 -0500</pubDate>
@@ -198,7 +201,7 @@
 
 &lt;p&gt;This week, we talk APIs, AJAX, Building our own API, Firebase and the introduction to Project 3. &lt;strong&gt;Full warning:&lt;/strong&gt; This is a beefy week so this post is pretty long. Let’s get started!&lt;/p&gt;
 
-&lt;h1 id=&quot;day-1-ui-router--apis-and-ajax&quot;&gt;Day 1: UI Router &amp;amp;&amp;amp; APIs and AJAX&lt;/h1&gt;
+&lt;h1 id=&quot;day-1-ui-router--apis--ajax&quot;&gt;Day 1: UI Router &amp;amp;&amp;amp; APIs &amp;amp;&amp;amp; AJAX&lt;/h1&gt;
 
 &lt;p&gt;For today, we dive deeper into technologies that I have zero prior experience on… exciting, but frightening all in one. Did it just get hot in here?&lt;/p&gt;
 
@@ -216,6 +219,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;So far, we’ve been using Angular to create some powerful front-end SPAs (Single Page Applications).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/AngularJS.png&quot; alt=&quot;AngularJS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Single Page Applications are Web apps that load a single HTML page and dynamically update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create fluid and responsive web apps, without constant page reloads.&lt;/p&gt;
 
@@ -289,7 +294,7 @@ From here, we added routes to our config file, defined a state, using &lt;code c
 &lt;p&gt;Here’s an example of what I mean:&lt;/p&gt;
 
 &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;click&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;// Make sure to add your API key to the URL!&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Make sure to add the API key to the URL!&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://api.wunderground.com/api/your_key/geolookup/conditions/q/va/midlothian.json&quot;&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
