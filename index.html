@@ -27,6 +27,7 @@ tagline:
   <div class="article-layout">
     Category: <p>{{ post.categories }}</p>
     Tags: <p>{{ post.tags | join: ', ' }}</p>
+    <img src="{{ post.image }}" alt="header post picture">
     {{ post.description }}
   </div>
 
