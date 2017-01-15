@@ -109,6 +109,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/img/browserquest.png&quot; alt=&quot;browser&quot; /&gt;&lt;/p&gt;
 &lt;center&gt;Browser Quest! Game made in WebSockets&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;We spent the rest of the day doing an in class lab, using the &lt;a href=&quot;http://socket.io/get-started/chat/&quot;&gt;Socket.io chat application&lt;/a&gt; tutorial. Very easy to follow guide for anyone curious about building a quick chat application! 2&lt;/p&gt;
 
@@ -129,33 +130,33 @@
 
 &lt;p&gt;Tim (remember him?) and I decided to team back up together and keep working on our &lt;a href=&quot;https://github.com/LWatsonlm/RAPIDEX&quot;&gt;RAPIDEX!!!!&lt;/a&gt; app! And we decided to spend the day learning &lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue.js&lt;/a&gt;, The Progressive JavaScript Framework for building user interfaces.&lt;/p&gt;
 
+&lt;p&gt;We decided to use our existing Github repo and work off a new branch called &lt;strong&gt;vuejs&lt;/strong&gt;.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;/img/vue.js.png&quot; alt=&quot;vue.js&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;Vue.js, The Progressive JavaScript Framework&lt;center&gt;
+&lt;center&gt;Vue.js, The Progressive JavaScript Framework&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
+&lt;p&gt;If interested, please view our &lt;a href=&quot;https://github.com/LWatsonlm/RAPIDEX/tree/vuejs&quot;&gt;Vue.js Github repo&lt;/a&gt;&lt;/p&gt;
 
-We decided to use our existing Github repo and work off a new branch called ```vuejs```.
+&lt;h2 id=&quot;presentations&quot;&gt;Presentations&lt;/h2&gt;
 
-If interested, check out our [Vue.js Github repo!](https://github.com/LWatsonlm/RAPIDEX/tree/vuejs).
+&lt;p&gt;Each group had 10 minutes to present what they learned and demo their application.&lt;/p&gt;
 
-## Presentations
+&lt;p&gt;Some questions we answered during our presentation:&lt;/p&gt;
 
-Each group had 10 minutes to present what they learned and demo their application.
+&lt;ul&gt;
+  &lt;li&gt;Why does this technology exist / what problem does it solve?&lt;/li&gt;
+  &lt;li&gt;Who built it / who maintains it?&lt;/li&gt;
+  &lt;li&gt;How does this technology compare to anything we have learned in class so far?&lt;/li&gt;
+  &lt;li&gt;Where did you go to learn this technology / what are some good resources out there?&lt;/li&gt;
+  &lt;li&gt;What kind of apps are best suited for this technology?&lt;/li&gt;
+  &lt;li&gt;What application did you build?&lt;/li&gt;
+  &lt;li&gt;What do you most like about this technology / what do most not like about it?&lt;/li&gt;
+&lt;/ul&gt;
 
-Some questions that we answered during our presentation:
+&lt;p&gt;Spending the day learning a new language, reading through the documentation and coming to that ah-ha moment, really solidify the fact learning how to code is a lifelong commitment. Technology is always involving and it’s important that we learn how to keep learning. Today was an excellent day and the assignment really challenged me.&lt;/p&gt;
 
-- Why does this technology exist / what problem does it solve?
-- Who built it / who maintains it?
-- How does this technology compare to anything we have learned in class so far?
-- Where did you go to learn this technology / what are some good resources out there?
-- What kind of apps are best suited for this technology?
-- What application did you build?
-- What do you most like about this technology / what do most not like about it?
-
-
-Spending the day learning a new language, reading through the documentation and coming to that ah-ha moment, really solidify the fact learning how to code is a lifelong commitment. Technology is always involving and it's important that we learn how to keep learning. Today was an excellent day and the assignment really challenged me.
-
-Alright, that wraps up another week! Thanks for reading! Until next time!
-&lt;/center&gt;&lt;/center&gt;
+&lt;p&gt;Alright, that wraps up another week! Thanks for reading! Until next time!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 20 Nov 2016 00:00:00 -0500</pubDate>
 				<link>/coding-bootcamp/2016/11/20/week10.html</link>
