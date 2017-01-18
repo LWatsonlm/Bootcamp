@@ -7,6 +7,173 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;Okay, people! It’s Week 11 and it’s our last “real” week of class. This week, we’re learning about Facebook’s language: React.  It’s also the week we start our final capstone project, Project 4. But first, React.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-intro-to-react&quot;&gt;Day 1: Intro to React&lt;/h1&gt;
+
+&lt;p&gt;React was first used by Facebook in 2011 and Instagram in 2012. It’s a library used to craft modern day UI and create views for the front-end in the web client and native applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-white.png&quot; alt=&quot;react&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learning Objectives of React:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain what ReactJS is and where it fits in our applications’ stack.&lt;/li&gt;
+  &lt;li&gt;Explain the component model of web development.&lt;/li&gt;
+  &lt;li&gt;Create and render React components in the browser.&lt;/li&gt;
+  &lt;li&gt;Pass in data to a React component via props.&lt;/li&gt;
+  &lt;li&gt;Nest React components.&lt;/li&gt;
+  &lt;li&gt;Modify the state of a React component through events.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, we start up our in-class application by running a couple of commands:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm i -g create-react-app
+$ create-react-app blog-app
+$ cd blog-app
+$ npm run start
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Running &lt;code class=&quot;highlighter-rouge&quot;&gt;$ npm run start&lt;/code&gt;, lets you view the React app at http://localhost:3000&lt;/p&gt;
+
+&lt;p&gt;Another big component of React is the… Components. We took a look at different websites in class and broke down each site as a component. For example, that would look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/component.png&quot; alt=&quot;component&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Example of how to break down components of a webpage&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another big component of React is it’s Virtual DOM. The Virtual DOM is a Javascript representation of the actual DOM.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Because of that, React can keep track of changes in the actual DOM by comparing different instances of the Virtual DOM.&lt;/li&gt;
+  &lt;li&gt;React then isolates the changes between old and new instances of the Virtual DOM and then only updates the actual DOM with the necessary changes.&lt;/li&gt;
+  &lt;li&gt;By only making the “necessary changes,” as opposed to re-rendering an entire view altogether, we save up on processing power.&lt;/li&gt;
+  &lt;li&gt;This is not unlike Git, with which you compare the difference – or &lt;code class=&quot;highlighter-rouge&quot;&gt;diff&lt;/code&gt; – between two commits.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/V-DOM.png&quot; alt=&quot;Virtual DOM&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Virtual DOM&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in learning more about the Virtual DOM, &lt;a href=&quot;https://www.youtube.com/watch?v=-DX3vJiqxm4&quot;&gt;check this video out.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I won’t go too much more into React, since this isn’t a React tutorial ;)&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-outcomes-and-react-continued&quot;&gt;Day 2: Outcomes and React Continued&lt;/h1&gt;
+
+&lt;h2 id=&quot;outcomes-25-hours&quot;&gt;Outcomes 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Today in Outcomes we had a couple of industry leaders come into the classroom to chat about the dreaded technical interview! This was to help calm our nerves and prepare to nail our interviews.&lt;/p&gt;
+
+&lt;p&gt;We experienced first hand what it’s like to be in a technical interview setting and got tips on how to prepare. We practiced with each other and with industry leaders on general technical questions, what to do or say when you don’t know the answer and examples of interview scenarios. It was a great lesson and helped curve my expectations of what to expect during an interview. I definitely have some studying to do.&lt;/p&gt;
+
+&lt;h2 id=&quot;react-practice-paradigms-and-principles-25-hours&quot;&gt;React: Practice, Paradigms, and Principles: 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/React2.jpg&quot; alt=&quot;React&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learning Objectives&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Differentiate between Object-Oriented Programming and Functional Programming paradigms&lt;/li&gt;
+  &lt;li&gt;Explain how React incorporates principles of Functional Programming&lt;/li&gt;
+  &lt;li&gt;Identify state in a React app&lt;/li&gt;
+  &lt;li&gt;Define the role of Container components and when to use them&lt;/li&gt;
+  &lt;li&gt;Use jQuery to make AJAX calls in a React app&lt;/li&gt;
+  &lt;li&gt;Explain the ways to add styles to a React app&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In today’s class we practiced building a React app that’s more complex than the intro’s simple blog example. When building an app like this, it’s important to keep certain development practices and paradigms in mind so that we can write maintainable code.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-components&quot;&gt;F.I.R.S.T. Components&lt;/h2&gt;
+
+&lt;p&gt;A React component is built to expect an input and render a UI with it. More importantly, a (well-structured) component only receives data specific to its purpose.&lt;/p&gt;
+
+&lt;p&gt;While this doesn’t sound too groundbreaking, it is very different from the OOP principles we’ve gotten used to. This is because React follows a more functional approach to programming. For React components under this approach, the same input will always produce the same output.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot of different ways to build an app, but for React, we talked about what a component should be: &lt;strong&gt;F.I.R.S.T.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Focused&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Components should do one thing and do it well. One thing that’s hard to adjust to in React coming from an OOP background is packing too much information into a component.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Independent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Components should increase cohesion and reduce coupling. Behavior in one component should not impact the behavior of another. In other words, components should not rely on one another.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reusable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Components should be written in a way that reduces the duplication of code.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Small&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ideally, components should be short and condensed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Testable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because the same input will always produce the same output, components are easily unit testable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-example.png&quot; alt=&quot;React&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;A Simple React Component Example&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reacts-state&quot;&gt;React’s State&lt;/h2&gt;
+
+&lt;p&gt;So, why did we learn these principles? Because in React, it’s very to lose control of our application’s state. When I say “state”, I mean the properties of a component that change as the application runs.&lt;/p&gt;
+
+&lt;p&gt;Like for example, beginning a new game of Pokemon, what is the state of a new game? Well, you have 0 Pokemon and you’re still in Pallet Town. What is the state of Pokemon when you win the game? You have 8 badges and you’ve defeated the Elite Four. So, what’s the common theme here, when changes a state? An Event!&lt;/p&gt;
+
+&lt;h2 id=&quot;in-class-lab&quot;&gt;In Class Lab&lt;/h2&gt;
+
+&lt;p&gt;To learn more about React, we built a movie browser application, allowing users to enter a search term, and view results of movies via the OMDB API.&lt;/p&gt;
+
+&lt;p&gt;If we got stuck, our instructors were around to help. At the end of the class, we were given the solution branch to check alternative ways on how to build this app.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-3-all-day-react-lab&quot;&gt;Day 3: All Day React Lab&lt;/h1&gt;
+
+&lt;p&gt;Today’s objective is to apply the fundamentals of what we learned so far by building a Todo app in React.&lt;/p&gt;
+
+&lt;p&gt;Why build a todo app?&lt;/p&gt;
+
+&lt;p&gt;Because it is the prototypical CRUD app that will test your web development skills with a different technology in a familiar domain.&lt;/p&gt;
+
+&lt;p&gt;I had a lot of trouble with this lab, but it definitely helped me understand all the things I needed to study up on. Ultimately, I used this &lt;a href=&quot;https://www.kirupa.com/react/simple_todo_app_react.htm&quot;&gt;very helpful Todo tutorial&lt;/a&gt; that helped walked through some concepts and techniques I was having trouble with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/finished_todo.png&quot; alt=&quot;Finished Todo App&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Finished Todo app from the tutorial&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-4--5-project-4-intro&quot;&gt;Day 4 &amp;amp;&amp;amp; 5: Project 4 Intro&lt;/h1&gt;
+
+&lt;p&gt;THIS IS IT. We’ve come a long way, and it’s time to show it. Project 4 should be the most advanced project to date.&lt;/p&gt;
+
+&lt;p&gt;We get to call the shots and invent our own idea, choosing a framework &amp;amp; tools that are appropriate for whatever we want to build. Pulling from everything we’ve learned so far, and try to tackle something that will push us a little outside of our comfort zone.&lt;/p&gt;
+
+&lt;p&gt;We had to sure to review our project proposal with one of our instructors just to make sure it’s something we can accomplish in the limited time that we have.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-suggestions&quot;&gt;Technical Suggestions&lt;/h2&gt;
+
+&lt;p&gt;The app must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Be a complete product,&lt;/strong&gt; which most likely means multiple relationships and CRUD functionality for at least a couple models&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implement thoughtful user stories&lt;/strong&gt; that are significant enough to help you know which features to build and which to scrap&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be deployed online&lt;/strong&gt; so it’s publicly accessible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I spent a good chuck of time deciding on a project idea, writing out pseudocode, creating ERDs and researched various APIs to pick the most suited technology for my project.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned to hear about my project idea. Head’s up - Next week is a short week - it’s Thanksgiving!&lt;/p&gt;
+
+&lt;p&gt;Until next time!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 27 Nov 2016 00:00:00 -0500</pubDate>
+				<link>/coding-bootcamp/2016/11/27/week11.html</link>
+				<guid isPermaLink="true">/coding-bootcamp/2016/11/27/week11.html</guid>
+			</item>
+		
+			<item>
 				<title>Is Coding Bootcamp Right for You? Week 10 in The Life of a Coding Bootcamper</title>
 				<description>&lt;p&gt;Welcome back to week 10 out of 13. We’re almost there, folks. Thanks for sticking with me. As you could imagine, I am exhausted. Maybe you feel exhausted from just READING about the bootcamp? However, we’re in the last stretch and there’s no time to slow down now. This week is mostly composed of Labs, Voting due to it being Election Week, and a lot of tears and hugs. What doesn’t kill you, only makes you stronger!! So here we go!”&lt;/p&gt;
 
@@ -1365,198 +1532,6 @@ Optimistic level: High&lt;/p&gt;
 				<pubDate>Tue, 20 Sep 2016 00:00:00 -0400</pubDate>
 				<link>/coding-bootcamp/2016/09/20/week2.html</link>
 				<guid isPermaLink="true">/coding-bootcamp/2016/09/20/week2.html</guid>
-			</item>
-		
-			<item>
-				<title>Is Coding Bootcamp Right for You? Week 1 in The Life of a Coding Bootcamper</title>
-				<description>&lt;p&gt;HI! I’m glad you decided to join us again. Super quick recap: I decided to start documenting my weekly experience with General Assembly in hopes I can help decide if a coding bootcamp is right for you. Let’s get into it!&lt;/p&gt;
-
-&lt;h1 id=&quot;whats-an-average-day-look-like&quot;&gt;What’s an Average Day Look Like?&lt;/h1&gt;
-
-&lt;p&gt;What’s a regular day look like?:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Review or Quiz: 9 to 10am&lt;/li&gt;
-  &lt;li&gt;First Session: 10 to 12:30pm&lt;/li&gt;
-  &lt;li&gt;Lunch Break/Study Time: 12:30pm to 2:30pm
-– Optional: Instructors One on Ones 1:30 to 2:30pm&lt;/li&gt;
-  &lt;li&gt;Second Session: 2:30pm to 5pm&lt;/li&gt;
-  &lt;li&gt;Instructor’s Office Hours: 6pm to 8pm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-While I’m talking about the average day, I’d like to have the chance to mention a couple of perks in the GA’s DC office. Food and drinks. Everyone’s favorite perks:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Unlimited Coke and Ginger Ale&lt;/li&gt;
-  &lt;li&gt;Diet Coke&lt;/li&gt;
-  &lt;li&gt;Capri Suns (Not shown)&lt;/li&gt;
-  &lt;li&gt;Coffee&lt;/li&gt;
-  &lt;li&gt;Peanut Butter and Jelly Sandwiches (Strawberry AND Grape!!!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/img/IMG_20160912_094949.jpg&quot; alt=&quot;soda&quot; /&gt;
- ​The fridge gets restocked three times a day. This needs restocking.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/IMG_20160912_095101.jpg&quot; alt=&quot;p&amp;amp;j&quot; /&gt;
-Yes, please! Unlimited peanut butter &amp;amp;&amp;amp; jelly!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/IMG_20160912_095233.jpg&quot; alt=&quot;coffee&quot; /&gt;
-Coffeeeee.&lt;/p&gt;
-
-&lt;p&gt;Project Week: We haven’t had a project week just yet - stay tuned!&lt;/p&gt;
-
-&lt;h1 id=&quot;the-first-week-at-general-assembly&quot;&gt;The First Week at General Assembly&lt;/h1&gt;
-
-&lt;h1 id=&quot;day-1-ice-breakers-orientation--introduction-to-cli-the-command-line&quot;&gt;Day 1: Ice Breakers, Orientation &amp;amp; Introduction to CLI (The Command Line)&lt;/h1&gt;
-
-&lt;p&gt;Ah. Day one was just like any other day one of the first day of school. Inspirational quotes (“Don’t compare yourself to others in the class. Only compete with yourself“), getting to know your classmates and forgetting their names and everyone’s favorite: Ice Breakers. Our ice breaker was to sketch our table partner. Also, to draw three things he/she likes and dislikes.&lt;/p&gt;
-
-&lt;p&gt;Here’s the sketch my partner drew of me:
-&lt;img src=&quot;/img/image1.JPG&quot; alt=&quot;sketch of me&quot; /&gt;
-Not bad, actually!&lt;/p&gt;
-
-&lt;p&gt;Next up, class on an introduction to CLI aka The Command Line aka Terminal. I have tons of experience with the Command Line so this was a pretty easy lesson for me.&lt;/p&gt;
-
-&lt;p&gt;We reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command Syntax (Flags and Arguments)&lt;/li&gt;
-  &lt;li&gt;Relative vs. Absolute Paths&lt;/li&gt;
-  &lt;li&gt;Common Commands&lt;/li&gt;
-  &lt;li&gt;Unsafe Commands&lt;/li&gt;
-  &lt;li&gt;Homework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Our instructors use and highly recommend &lt;a href=&quot;https://www.iterm2.com/&quot;&gt;iTerm2&lt;/a&gt; as a terminal replacement. We’re also using Atom as our text editor - which has quickly become my favorite editor!&lt;/p&gt;
-
-&lt;p&gt;For the last part of the day, the Outcomes team, a team of two who provides career advice, access to job readiness training, connections to employers, and opportunities to hone new skills.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/IMG_20160906_155156.jpg&quot; alt=&quot;outcomes&quot; /&gt;
-“We’re anyting but traditional” Yeah, no kidding!&lt;/p&gt;
-
-&lt;p&gt;Homework was assigned at the end of the day. Homework is assigned everyday but it’s not due until 9am every Thursday. I plan on doing homework everyday, instead of waiting until Wednesday to do everything. A bunch of us stayed to complete the homework, I left around 7pm and head home and prepare for the next day.&lt;/p&gt;
-
-&lt;p&gt;Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;day-2-git-1--css-1&quot;&gt;Day 2: Git 1 &amp;amp; CSS 1&lt;/h1&gt;
-
-&lt;p&gt;Alright! Day two was our first official full day of lessons. I don’t think I mentioned this before, but class starts exactly at 9am everyday (we only can be late 5 times during the program, and yes, 9:01am is late).&lt;/p&gt;
-
-&lt;h2 id=&quot;git-1-15-hours&quot;&gt;Git 1: 1.5 hours&lt;/h2&gt;
-&lt;p&gt;Git is a way to keep track of version control. You use git in the command line, where Github.com is a online project hosting site that uses git. Github also allows you invite collaborators and track issues on a project.&lt;/p&gt;
-
-&lt;p&gt;For today, we focused git commands and using git to commit our projects locally.&lt;/p&gt;
-
-&lt;p&gt;We reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Git vs Github&lt;/li&gt;
-  &lt;li&gt;Anatomy of a Repo: Commits and Repositories&lt;/li&gt;
-  &lt;li&gt;Local and Remote&lt;/li&gt;
-  &lt;li&gt;Forking &amp;amp; Pull Requests&lt;/li&gt;
-  &lt;li&gt;One in class exercise&lt;/li&gt;
-  &lt;li&gt;Homework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;css1-25-hours&quot;&gt;CSS1: 2.5 hours&lt;/h2&gt;
-&lt;p&gt;Cascading Style Sheets (CSS) are what make web pages look like more than just words on a page. CSS is the way you style your HTML, it’s how you make things pretty. CSS is a lot of fun but it can also be stressful. I like to think of CSS like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/CSS.gif&quot; alt=&quot;css in a nutshell&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No matter how you look at it, a working knowledge of CSS is essential to web development. Luckily for me, I have experience in CSS and felt very comfortable during the lesson.&lt;/p&gt;
-
-&lt;p&gt;We reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What is CSS?&lt;/li&gt;
-  &lt;li&gt;The CSS Validator&lt;/li&gt;
-  &lt;li&gt;Selectors and Units&lt;/li&gt;
-  &lt;li&gt;Two in class exercises&lt;/li&gt;
-  &lt;li&gt;Homework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-This was the day before our three homework assignments were due so many of us stayed until 8pm to finish everything and submit.&lt;/p&gt;
-
-&lt;p&gt;Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;day-3-git-2--css-2&quot;&gt;Day 3: Git 2 &amp;amp; CSS 2&lt;/h1&gt;
-
-&lt;p&gt;A lot of the same happened here as yesterday.&lt;/p&gt;
-
-&lt;p&gt;Git 2 we reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Git Branching&lt;/li&gt;
-  &lt;li&gt;Git Merging&lt;/li&gt;
-  &lt;li&gt;Overview of a GitHub Workflow&lt;/li&gt;
-  &lt;li&gt;Merge Conflicts&lt;/li&gt;
-  &lt;li&gt;Two Exercises&lt;/li&gt;
-  &lt;li&gt;Homework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-CSS 2 we reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Using Flexbox instead of Floats
-    &lt;ul&gt;
-      &lt;li&gt;flex-direction, justify-content, align-items&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The Holy Grail Layout&lt;/li&gt;
-  &lt;li&gt;Two Exercises&lt;/li&gt;
-  &lt;li&gt;Homework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;day-4-slips--lab-portfolio-pages&quot;&gt;Day 4: Slips &amp;amp; Lab: Portfolio Pages&lt;/h1&gt;
-
-&lt;p&gt;Slips! Think of Slips as a digital flashcard that you have to answer in front of class. Yes, you have to stand up and get in front of class and answer the question on the flashcard. These flashcards are randomly chosen so there’s no great way to study before you get called.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/alipa.png&quot; alt=&quot;slips&quot; /&gt;
-An example of a slip&lt;/p&gt;
-
-&lt;p&gt;The good thing, this happens every Friday morning and you only go once. The bad thing, this happens every Friday morning and you only go once.&lt;/p&gt;
-
-&lt;h1 id=&quot;lab-portfolio-pages-10am---430pm&quot;&gt;Lab: Portfolio Pages: 10am - 4:30pm&lt;/h1&gt;
-
-&lt;p&gt;We had the chance to sit down and mash out some code. I loved this! Don’t get me wrong, I loved the sessions during the day, but where I really excel is when I’m given compete freedom to use my time and creativity. That’s why I loved having such a long day to lab it out!&lt;/p&gt;
-
-&lt;p&gt;Okay, so what was the lab? Well, it was to start coding our portfolio that will be used for recruiters in the near future.&lt;/p&gt;
-
-&lt;p&gt;Some of the requirements of this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Semantics and style should be separated appropriately: CSS should be separate from HTML.&lt;/li&gt;
-  &lt;li&gt;HTML should pass the W3 HTML validator&lt;/li&gt;
-  &lt;li&gt;CSS should pass the W3 CSS validator&lt;/li&gt;
-  &lt;li&gt;Javascript isn’t required, but there’s bonus points for giving it a shot!&lt;/li&gt;
-  &lt;li&gt;Your page must be deployed to Github pages. This is a free hosting service provided by Github. You should name your repository your-username.github.io. The result is that your page will be publicly available at http://your-username.github.io&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This was a lot of fun. I had a great time starting my portfolio. I have a lot of ideas for functionality but it’s been a long week. I think this is a good place to stop.&lt;/p&gt;
-
-&lt;p&gt;Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;whew-that-was-a-lot&quot;&gt;Whew! That was a lot.&lt;/h1&gt;
-
-&lt;p&gt;It has been an action packed first week. I know there’s a lot here but I hope something here caught your interest! Okay, until next time - chat soon!&lt;/p&gt;
-</description>
-				<pubDate>Tue, 13 Sep 2016 00:00:00 -0400</pubDate>
-				<link>/coding-bootcamp/2016/09/13/week1.html</link>
-				<guid isPermaLink="true">/coding-bootcamp/2016/09/13/week1.html</guid>
 			</item>
 		
 	</channel>

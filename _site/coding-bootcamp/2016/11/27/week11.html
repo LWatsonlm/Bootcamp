@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-76296508-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+
+	<meta charset="utf-8">
+	<title>Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper</title>
+	
+	<meta name="description" content="Okay, people! It's Week 11 and it's is our last 'real' week of class. This week, we're learning about Facebook's language: React. It's also the week we start our final capstone project, Project 4. But first, React.">
+	
+	<meta name="author" content="Latoya M. Watson">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/LWatsonlm">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.knowyourapps.com/wp-content/uploads/2012/08/ICON_TeToTe.png" id="navbar-brand" class="img-circle" />
+				Tech Eats: Stories of Tech and Food
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs" style="">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/img/latoyawatson.jpg" class="img-circle" id="latoya">
+	</a>
+	<h3 class="title">
+        <a href="/">Tech Eats: Stories of Tech and Food</a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Blogging about Tech and Food Stuff from Washington, D.C.
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/LWatsonlm">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/lmwatsonn">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:latoyamwatson@gmail.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/watsonlm">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper <small>Week 11</small></h1>
+</div>
+
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   November
+	   27th,
+	   
+	   2016
+     - 
+
+  7 mins
+
+ Read.
+	 </span>
+	  <div class="article_body">
+	  <p>Okay, people! It’s Week 11 and it’s our last “real” week of class. This week, we’re learning about Facebook’s language: React.  It’s also the week we start our final capstone project, Project 4. But first, React.</p>
+
+<h1 id="day-1-intro-to-react">Day 1: Intro to React</h1>
+
+<p>React was first used by Facebook in 2011 and Instagram in 2012. It’s a library used to craft modern day UI and create views for the front-end in the web client and native applications.</p>
+
+<p><img src="/img/react-white.png" alt="react" /></p>
+
+<p>Learning Objectives of React:</p>
+
+<ul>
+  <li>Explain what ReactJS is and where it fits in our applications’ stack.</li>
+  <li>Explain the component model of web development.</li>
+  <li>Create and render React components in the browser.</li>
+  <li>Pass in data to a React component via props.</li>
+  <li>Nest React components.</li>
+  <li>Modify the state of a React component through events.</li>
+</ul>
+
+<p>So, we start up our in-class application by running a couple of commands:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ npm i -g create-react-app
+$ create-react-app blog-app
+$ cd blog-app
+$ npm run start
+</code></pre>
+</div>
+
+<p>Running <code class="highlighter-rouge">$ npm run start</code>, lets you view the React app at http://localhost:3000</p>
+
+<p>Another big component of React is the… Components. We took a look at different websites in class and broke down each site as a component. For example, that would look something like this:</p>
+
+<p><img src="/img/component.png" alt="component" /></p>
+<center>Example of how to break down components of a webpage</center>
+<p><br /></p>
+
+<p>Another big component of React is it’s Virtual DOM. The Virtual DOM is a Javascript representation of the actual DOM.</p>
+
+<ul>
+  <li>Because of that, React can keep track of changes in the actual DOM by comparing different instances of the Virtual DOM.</li>
+  <li>React then isolates the changes between old and new instances of the Virtual DOM and then only updates the actual DOM with the necessary changes.</li>
+  <li>By only making the “necessary changes,” as opposed to re-rendering an entire view altogether, we save up on processing power.</li>
+  <li>This is not unlike Git, with which you compare the difference – or <code class="highlighter-rouge">diff</code> – between two commits.</li>
+</ul>
+
+<p><img src="/img/V-DOM.png" alt="Virtual DOM" /></p>
+<center>Virtual DOM</center>
+<p><br /></p>
+
+<p>If you’re interested in learning more about the Virtual DOM, <a href="https://www.youtube.com/watch?v=-DX3vJiqxm4">check this video out.</a></p>
+
+<p>I won’t go too much more into React, since this isn’t a React tutorial ;)</p>
+
+<h1 id="day-2-outcomes-and-react-continued">Day 2: Outcomes and React Continued</h1>
+
+<h2 id="outcomes-25-hours">Outcomes 2.5 Hours</h2>
+
+<p>Today in Outcomes we had a couple of industry leaders come into the classroom to chat about the dreaded technical interview! This was to help calm our nerves and prepare to nail our interviews.</p>
+
+<p>We experienced first hand what it’s like to be in a technical interview setting and got tips on how to prepare. We practiced with each other and with industry leaders on general technical questions, what to do or say when you don’t know the answer and examples of interview scenarios. It was a great lesson and helped curve my expectations of what to expect during an interview. I definitely have some studying to do.</p>
+
+<h2 id="react-practice-paradigms-and-principles-25-hours">React: Practice, Paradigms, and Principles: 2.5 Hours</h2>
+
+<p><img src="/img/React2.jpg" alt="React" /></p>
+
+<p>Learning Objectives</p>
+
+<ul>
+  <li>Differentiate between Object-Oriented Programming and Functional Programming paradigms</li>
+  <li>Explain how React incorporates principles of Functional Programming</li>
+  <li>Identify state in a React app</li>
+  <li>Define the role of Container components and when to use them</li>
+  <li>Use jQuery to make AJAX calls in a React app</li>
+  <li>Explain the ways to add styles to a React app</li>
+</ul>
+
+<p>In today’s class we practiced building a React app that’s more complex than the intro’s simple blog example. When building an app like this, it’s important to keep certain development practices and paradigms in mind so that we can write maintainable code.</p>
+
+<h2 id="first-components">F.I.R.S.T. Components</h2>
+
+<p>A React component is built to expect an input and render a UI with it. More importantly, a (well-structured) component only receives data specific to its purpose.</p>
+
+<p>While this doesn’t sound too groundbreaking, it is very different from the OOP principles we’ve gotten used to. This is because React follows a more functional approach to programming. For React components under this approach, the same input will always produce the same output.</p>
+
+<p>There’s a lot of different ways to build an app, but for React, we talked about what a component should be: <strong>F.I.R.S.T.</strong></p>
+
+<p><strong>Focused</strong></p>
+
+<p>Components should do one thing and do it well. One thing that’s hard to adjust to in React coming from an OOP background is packing too much information into a component.</p>
+
+<p><strong>Independent</strong></p>
+
+<p>Components should increase cohesion and reduce coupling. Behavior in one component should not impact the behavior of another. In other words, components should not rely on one another.</p>
+
+<p><strong>Reusable</strong></p>
+
+<p>Components should be written in a way that reduces the duplication of code.</p>
+
+<p><strong>Small</strong></p>
+
+<p>Ideally, components should be short and condensed.</p>
+
+<p><strong>Testable</strong></p>
+
+<p>Because the same input will always produce the same output, components are easily unit testable.</p>
+
+<p><img src="/img/react-example.png" alt="React" /></p>
+<center>A Simple React Component Example</center>
+<p><br /></p>
+
+<h2 id="reacts-state">React’s State</h2>
+
+<p>So, why did we learn these principles? Because in React, it’s very to lose control of our application’s state. When I say “state”, I mean the properties of a component that change as the application runs.</p>
+
+<p>Like for example, beginning a new game of Pokemon, what is the state of a new game? Well, you have 0 Pokemon and you’re still in Pallet Town. What is the state of Pokemon when you win the game? You have 8 badges and you’ve defeated the Elite Four. So, what’s the common theme here, when changes a state? An Event!</p>
+
+<h2 id="in-class-lab">In Class Lab</h2>
+
+<p>To learn more about React, we built a movie browser application, allowing users to enter a search term, and view results of movies via the OMDB API.</p>
+
+<p>If we got stuck, our instructors were around to help. At the end of the class, we were given the solution branch to check alternative ways on how to build this app.</p>
+
+<h1 id="day-3-all-day-react-lab">Day 3: All Day React Lab</h1>
+
+<p>Today’s objective is to apply the fundamentals of what we learned so far by building a Todo app in React.</p>
+
+<p>Why build a todo app?</p>
+
+<p>Because it is the prototypical CRUD app that will test your web development skills with a different technology in a familiar domain.</p>
+
+<p>I had a lot of trouble with this lab, but it definitely helped me understand all the things I needed to study up on. Ultimately, I used this <a href="https://www.kirupa.com/react/simple_todo_app_react.htm">very helpful Todo tutorial</a> that helped walked through some concepts and techniques I was having trouble with.</p>
+
+<p><img src="/img/finished_todo.png" alt="Finished Todo App" /></p>
+<center>Finished Todo app from the tutorial</center>
+<p><br /></p>
+
+<h1 id="day-4--5-project-4-intro">Day 4 &amp;&amp; 5: Project 4 Intro</h1>
+
+<p>THIS IS IT. We’ve come a long way, and it’s time to show it. Project 4 should be the most advanced project to date.</p>
+
+<p>We get to call the shots and invent our own idea, choosing a framework &amp; tools that are appropriate for whatever we want to build. Pulling from everything we’ve learned so far, and try to tackle something that will push us a little outside of our comfort zone.</p>
+
+<p>We had to sure to review our project proposal with one of our instructors just to make sure it’s something we can accomplish in the limited time that we have.</p>
+
+<h2 id="technical-suggestions">Technical Suggestions</h2>
+
+<p>The app must:</p>
+
+<ul>
+  <li><strong>Be a complete product,</strong> which most likely means multiple relationships and CRUD functionality for at least a couple models</li>
+  <li><strong>Implement thoughtful user stories</strong> that are significant enough to help you know which features to build and which to scrap</li>
+  <li><strong>Be deployed online</strong> so it’s publicly accessible</li>
+</ul>
+
+<p>So I spent a good chuck of time deciding on a project idea, writing out pseudocode, creating ERDs and researched various APIs to pick the most suited technology for my project.</p>
+
+<p>Stay tuned to hear about my project idea. Head’s up - Next week is a short week - it’s Thanksgiving!</p>
+
+<p>Until next time!</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			
+				<li><a href="/categories.html#coding-bootcamp-ref">
+					coding-bootcamp <span>(12)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			
+				<li>
+					<a href="/tags.html#react-ref">
+					react <span>(1)</span>
+					,
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags.html#project-week-ref">
+					project-week <span>(4)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper&via=lmwatsonn"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="/img/latoyawatson.jpg" class="img-rounded author-image" id="smaller-latoya" />
+        <h4 class="section-title author-name">Latoya M. Watson</h4>
+        <p class="author-bio">Blogging about Tech and Food Stuff from Washington, D.C.</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/coding-bootcamp/2016/11/20/week10.html" title="Is Coding Bootcamp Right for You? Week 10 in The Life of a Coding Bootcamper">&larr; Previous</a></li>
+		  
+		  
+			<li class="next disabled"><a>Next &rarr;</a>
+		  
+		</ul>
+
+		<hr>
+	</div>
+
+	<div class="col-sm-2 sidebar-2">
+
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'lwatsonlm-github-io-tech-eats';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2017 Latoya M. Watson with <a href="http://jekyllrb.com/">Jekyll</a>.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-76296508-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
