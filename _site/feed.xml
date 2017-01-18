@@ -7,6 +7,98 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Is Coding Bootcamp Right for You? Week 12 in The Life of a Coding Bootcamper</title>
+				<description>&lt;p&gt;It’s Thanksgiving week and we have Wednesday - Friday off to spend with families and friends! This week I started working on my project (which you’ll soon enough see!!) and our instructors gave us the option of learning electives. Let’s get started!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Thanksgiving.jpg&quot; alt=&quot;thanksgiving&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-project--html5-canvas&quot;&gt;Day 1: Project &amp;amp;&amp;amp; HTML5 Canvas&lt;/h1&gt;
+
+&lt;h2 id=&quot;work-on-project-55-hours&quot;&gt;Work on Project 5.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Need a reminder on what project 4 is all about? No worries.&lt;/p&gt;
+
+&lt;p&gt;We get to call the shots and invent our own idea, choosing a framework &amp;amp; tools that are appropriate for whatever we want to build. Pulling from everything we’ve learned so far, and try to tackle something that will push us a little outside of our comfort zone.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-suggestions&quot;&gt;Technical Suggestions&lt;/h2&gt;
+
+&lt;p&gt;The app must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Be a complete product,&lt;/strong&gt; which most likely means multiple relationships and CRUD functionality for at least a couple models&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implement thoughtful user stories&lt;/strong&gt; that are significant enough to help you know which features to build and which to scrap&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be deployed online&lt;/strong&gt; so it’s publicly accessible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;html5-canvas-elective-25-hours&quot;&gt;HTML5 Canvas: Elective 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/html-canvas.png&quot; alt=&quot;html5 canvas&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learning Objectives&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain what canvas is and why we use it&lt;/li&gt;
+  &lt;li&gt;Draw graphics using a 2d context&lt;/li&gt;
+  &lt;li&gt;Build a game using canvas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The HTML5 &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; element is used to draw graphics, using JavaScript. It was designed by Apple in 2004.&lt;/p&gt;
+
+&lt;p&gt;You can, and you should, check out the following canvas demos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://corehtml5canvas.com/code-live/ch01/example-1.8/example.html&quot;&gt;100 Bouncing Balls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codepen.io/dissimulate/pen/KrAwx&quot;&gt;Tearable Cloth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freeriderhd.com/t/1016-layers&quot;&gt;Free Rider HD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codepen.io/soulwire/pen/Ffvlo&quot;&gt;30,000 Particles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pretty neat stuff, huh?&lt;/p&gt;
+
+&lt;p&gt;We finished the day by working on a mini-lab (which was not mini at all), creating the old school game, Snake.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-outcomes--d3&quot;&gt;Day 2: Outcomes &amp;amp;&amp;amp; D3&lt;/h1&gt;
+
+&lt;h2 id=&quot;outcomes-25-hours&quot;&gt;Outcomes: 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Today was portfolio standup day. Each student had the chance to show off our portfolio and get feedback from other students.&lt;/p&gt;
+
+&lt;p&gt;We weren’t expecting to have a perfect portfolio at this time, however, we needed to be able to discuss our work, our plans for completing any unfinished pieces, and our plans for after graduation.&lt;/p&gt;
+
+&lt;h2 id=&quot;d3-elective-25-hours&quot;&gt;D3: Elective 2.5 Hours&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, I did not attend this elective because I was deep into working on my project. However, I’ll leave you with a quick intro into D3 and the learning objectives of today’s elective.&lt;/p&gt;
+
+&lt;p&gt;What Is D3?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/d3.svg&quot; alt=&quot;D3&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;D3 stands for Data-Driven Documents. The word “document” in D3 refers to the DOM. Javascript can manipulate the DOM, creating and deleting pieces of it. Building data visualizations, however, with tools that are suited for GUI programming is difficult and verbose. Enter D3.&lt;/p&gt;
+
+&lt;p&gt;Learning Objectives:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Manipulate the DOM using D3&lt;/li&gt;
+  &lt;li&gt;Bind data to DOM elements&lt;/li&gt;
+  &lt;li&gt;Scale data to fit the viewport&lt;/li&gt;
+  &lt;li&gt;Use D3 helper methods like min and max&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;day-3---5-thanksgiving&quot;&gt;Day 3 - 5: Thanksgiving&lt;/h1&gt;
+
+&lt;p&gt;General Assembly gave us the rest of the week off and did not expect us to work on our projects during this time. Which I was so grateful for! I was able to visit family and relax a bit for the first time since the program started.&lt;/p&gt;
+
+&lt;p&gt;Next week is officially our last week of WDI. In next week’s post, I’ll share with my Project 4’s Github and Demo links.&lt;/p&gt;
+
+&lt;p&gt;Until then!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 27 Nov 2016 00:00:00 -0500</pubDate>
+				<link>/coding-bootcamp/2016/11/27/week12.html</link>
+				<guid isPermaLink="true">/coding-bootcamp/2016/11/27/week12.html</guid>
+			</item>
+		
+			<item>
 				<title>Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper</title>
 				<description>&lt;p&gt;Okay, people! It’s Week 11 and it’s our last “real” week of class. This week, we’re learning about Facebook’s language: React.  It’s also the week we start our final capstone project, Project 4. But first, React.&lt;/p&gt;
 
@@ -1417,121 +1509,6 @@ Optimistic level: High&lt;/p&gt;
 				<pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
 				<link>/coding-bootcamp/2016/09/25/week3.html</link>
 				<guid isPermaLink="true">/coding-bootcamp/2016/09/25/week3.html</guid>
-			</item>
-		
-			<item>
-				<title>Is Coding Bootcamp Right for You? Week 2 in The Life of a Coding Bootcamper</title>
-				<description>&lt;p&gt;HI! I’m glad you decided to join us again. Super quick recap: I decided to start documenting my weekly experience with General Assembly in hopes I can help decide if a coding bootcamp is right for you.
-Let’s get into it!&lt;/p&gt;
-
-&lt;h1 id=&quot;checkpoint-01&quot;&gt;Checkpoint 01&lt;/h1&gt;
-&lt;p&gt;9am - 10am: Our first quiz. Every week, we have a mini quiz to review the previous week. You must turn in your work no later than 10am.&lt;/p&gt;
-
-&lt;p&gt;At General Assembly, there isn’t a grading system. You’re free to ask questions and the instructors will provide feedback. The checkpoint is mostly for you to get a feel of your understanding of the material.&lt;/p&gt;
-
-&lt;h1 id=&quot;day-1--2-javascript-and-dom-with-jquery&quot;&gt;Day 1 &amp;amp;&amp;amp; 2: Javascript and DOM with jQuery&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/tweet.png&quot; alt=&quot;tweet from lmwatsonn&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;How I felt the entire second week&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;javascript-objects-and-functions-25-hours&quot;&gt;Javascript Objects and Functions: 2.5 hours:&lt;/h2&gt;
-
-&lt;p&gt;Javascript, our first programming language to tackle! Woohoo! We tackled topics such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If, Else If statements&lt;/li&gt;
-  &lt;li&gt;Loops&lt;/li&gt;
-  &lt;li&gt;Functions&lt;/li&gt;
-  &lt;li&gt;Methods&lt;/li&gt;
-  &lt;li&gt;Hoisting&lt;/li&gt;
-  &lt;li&gt;Objects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;dom-with-jquery-25-hours&quot;&gt;DOM with jQuery: 2.5 hours:&lt;/h2&gt;
-
-&lt;p&gt;Next, we went over The Document Object Model (DOM). The DOM provides a structured representation of the [HTML] document. The nodes of every document are organized in a tree structure, called the DOM tree. It’s a bit abstract but here’s a visual representation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/DOM.png&quot; alt=&quot;the DOM&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;The DOM ... dun, dun dun!&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;In order to interact with The DOM, we used jQuery, a Javascript library. A game changer. jQuery is fast, it’s light, and it’s simple. It became instantly more fun to use than vanilla Javascript.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, we were assigned two homework assignments, remember homework is always due on Thursday no later than 9am.&lt;/p&gt;
-
-&lt;p&gt;Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;day-3-javascript-events-callbacks--lab&quot;&gt;Day 3: Javascript Events, Callbacks &amp;amp; Lab&lt;/h1&gt;
-
-&lt;p&gt;First thing in the morning - Review / Code Challenge. The day starts at 9am and the floor is open for students to ask questions on pretty much anything.&lt;/p&gt;
-
-&lt;p&gt;After the questions have been answered, we are given a mini code challenge to kick off the day. Code challenges do not get turned in.&lt;/p&gt;
-
-&lt;h2&gt;Javascript Events/Callbacks: 1.5 hours&lt;/h2&gt;
-&lt;p&gt;During this lesson, we reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Selecting elements in jQuery vs. vanilla Javascript&lt;/li&gt;
-  &lt;li&gt;$(this) vs this&lt;/li&gt;
-  &lt;li&gt;Synchronous and Asynchronous Program Execution&lt;/li&gt;
-  &lt;li&gt;Lots and lots of in class practicing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2&gt;Scope and Context: 1.5 hours&lt;/h2&gt;
-&lt;p&gt;During this lesson, we reviewed:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Context in regards to where functions are invoked&lt;/li&gt;
-  &lt;li&gt;Scope in regards to where a variable can be referenced/used
-    &lt;ul&gt;
-      &lt;li&gt;Global scope and local scope&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;More in class practicing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Having a grasp on Scope within your code is key to becoming a great developer who writes clean code. This lesson felt more conceptual than previous ones but all was well.&lt;/p&gt;
-
-&lt;p&gt;Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;h1 id=&quot;day-4--5-lab---building-an-atm&quot;&gt;Day 4 &amp;amp;&amp;amp; 5: Lab - Building an ATM&lt;/h1&gt;
-
-&lt;p&gt;The lab was assigned to us Thursday at 2:30pm and due on Friday at 2:30pm. For our first lab, we were given a lot of time to complete. However, upcoming labs will be assigned and due the same day.&lt;/p&gt;
-
-&lt;p&gt;The assignment: Building an application to track checking and savings account balances. Here are the requirements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Users can deposit money into one of the bank accounts&lt;/li&gt;
-  &lt;li&gt;Users can withdraw money from one of the bank accounts
-    &lt;ul&gt;
-      &lt;li&gt;Make sure the balance in an account can’t go negative. If a user tries to withdraw more money than exists in the account, ignore the transaction.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The color of a bank account should reflect its balance.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-I had a lot of fun building the ATM. Feeling especially proud of my event listeners on the buttons and getting the deposit and withdraw functionality working. Today was a good day.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/atm.png&quot; alt=&quot;atm&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;Screenshot of my ATM Lab Submission&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Confidence level (1-5): 5
-Optimistic level: High&lt;/p&gt;
-
-&lt;p&gt;Next week is PROJECT 01 WEEK! Get hype! Okay, until next time - chat soon!&lt;/p&gt;
-</description>
-				<pubDate>Tue, 20 Sep 2016 00:00:00 -0400</pubDate>
-				<link>/coding-bootcamp/2016/09/20/week2.html</link>
-				<guid isPermaLink="true">/coding-bootcamp/2016/09/20/week2.html</guid>
 			</item>
 		
 	</channel>
