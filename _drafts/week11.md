@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Is Coding Bootcamp Right for You? Week 11 in The Life of a Coding Bootcamper"
-date:   2016-11-27
-description: "Okay, people! It's Week 11 and it's is our last "real" week of class. This week, we're learning about Facebook's language: React.  It's also the week we start our final capstone project, Project 4. But first, React."
+date:   2016-11-20
+tagline: "Week 11"
 categories: [coding-bootcamp]
 tags: [react, project-week]
+description: "Okay, people! It's Week 11 and it's is our last 'real' week of class. This week, we're learning about Facebook's language: React. It's also the week we start our final capstone project, Project 4. But first, React."
 fullview: true
 comments: true
 image: /img/react-white.png
